@@ -2597,7 +2597,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 102.87 140.97 0)
 			(effects
 				(font
@@ -3130,7 +3130,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LPS22HHTR"
+		(property "Footprint" "LPS22HHTR:LPS22HHTR"
 			(at 219.71 145.72 0)
 			(effects
 				(font
@@ -3294,7 +3294,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CAP_APA_0606_AVX"
+		(property "Footprint" "APA0606100M050R:CAP_APA_0606_AVX"
 			(at 102.362 126.492 0)
 			(effects
 				(font
