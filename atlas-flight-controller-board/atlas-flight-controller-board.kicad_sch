@@ -45,6 +45,49 @@
 		(uuid "b05fd64b-9268-4acb-b90d-b73dbc6aec63")
 	)
 	(sheet
+		(at 110.49 154.94)
+		(size 45.72 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 194 194 194 1.0000)
+		)
+		(uuid "0e8824f2-4013-4596-998b-cdfa7c1cf328")
+		(property "Sheetname" "sd-page"
+			(at 110.49 154.2284 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sd-page.kicad_sch"
+			(at 110.49 193.6246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "atlas-flight-controller-board"
+				(path "/99efb2d6-b5f7-438c-9ed2-f359400f01a1"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 58.42 107.95)
 		(size 45.72 38.1)
 		(exclude_from_sim no)
@@ -169,6 +212,49 @@
 			(project "atlas-flight-controller-board"
 				(path "/99efb2d6-b5f7-438c-9ed2-f359400f01a1"
 					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 58.42 154.94)
+		(size 45.72 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 194 194 194 1.0000)
+		)
+		(uuid "ebeff960-adac-492b-ba2d-f8a8dedd6bc1")
+		(property "Sheetname" "mcu-page"
+			(at 58.42 154.2284 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu-page.kicad_sch"
+			(at 58.42 193.6246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "atlas-flight-controller-board"
+				(path "/99efb2d6-b5f7-438c-9ed2-f359400f01a1"
+					(page "5")
 				)
 			)
 		)

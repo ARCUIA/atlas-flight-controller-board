@@ -625,6 +625,14 @@
     [
       "c2f95f88-f69d-400f-a78c-631da5710a62",
       "power"
+    ],
+    [
+      "ebeff960-adac-492b-ba2d-f8a8dedd6bc1",
+      "mcu-page"
+    ],
+    [
+      "0e8824f2-4013-4596-998b-cdfa7c1cf328",
+      "sd-page"
     ]
   ],
   "text_variables": {}
