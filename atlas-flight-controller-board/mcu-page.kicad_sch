@@ -5,6 +5,196 @@
 	(uuid "70ecad84-851f-40e2-adad-cd4511b66b32")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:Screw_Terminal_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Screw_Terminal_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "screw terminal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TerminalBlock*:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Screw_Terminal_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 0.508) (xy 0.508 -0.3302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Teensy4.1:DEV-16771"
 			(pin_names
 				(offset 1.016)
@@ -1371,9 +1561,103 @@
 			(embedded_fonts no)
 		)
 	)
+	(junction
+		(at 124.46 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "14e5642b-9b75-4665-9d41-94e8de7da705")
+	)
+	(junction
+		(at 124.46 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26d76218-7cbb-45fc-bb7a-ac9b373d2c3f")
+	)
+	(wire
+		(pts
+			(xy 74.93 86.36) (xy 124.46 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8655170b-b623-47e3-89c6-059a7a87fa90")
+	)
+	(wire
+		(pts
+			(xy 129.54 83.82) (xy 124.46 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e1abd86-1e4c-48db-830d-ceea01f7d37b")
+	)
+	(wire
+		(pts
+			(xy 129.54 86.36) (xy 124.46 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afeaeb5f-8ca7-4fb0-abfe-90b0502d2e31")
+	)
+	(wire
+		(pts
+			(xy 74.93 83.82) (xy 124.46 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccd9e634-c680-45b9-a188-888d2afa27cf")
+	)
+	(label "UART_MCU_TX_RPI_RX"
+		(at 74.93 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5b49db55-5f63-41fe-89d2-2cc49804597a")
+	)
+	(label "UART_RPI_TX_MCU_RX"
+		(at 74.93 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f31aa7a0-0d76-477a-a9fb-de6ec0ec1939")
+	)
+	(global_label "UART_MCU_TX_GPS_RX"
+		(shape input)
+		(at 124.46 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "172710ea-5365-4d6b-9fba-bb51d0ca6820")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 100.4897 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "UART_RFD900_TX_MCU_RX"
 		(shape input)
-		(at 124.46 83.82 180)
+		(at 124.46 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1383,7 +1667,7 @@
 		)
 		(uuid "27039829-82da-4545-a372-3c63efbc737a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.9821 83.82 0)
+			(at 96.9821 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1415,6 +1699,94 @@
 			)
 		)
 	)
+	(global_label "IMU_INT1"
+		(shape input)
+		(at 124.46 129.54 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "28fb9545-1f7b-4dc5-8a07-ad6cea4c3d14")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 113.0081 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MAG_INT"
+		(shape input)
+		(at 124.46 124.46 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2d96b48f-6d0a-4695-96a5-ac78bf571e54")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 113.7943 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IMU_INT2"
+		(shape input)
+		(at 165.1 129.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2de97b52-d87f-41d1-865c-50e5ff626169")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 176.5519 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "UART_GPS_TX_MCU_RX"
+		(shape input)
+		(at 124.46 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "443104fd-e841-4b49-ae85-d99977c8a36b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 100.4897 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "I2C_SDA"
 		(shape input)
 		(at 124.46 119.38 180)
@@ -1437,9 +1809,31 @@
 			)
 		)
 	)
+	(global_label "BARO_INT"
+		(shape input)
+		(at 124.46 127 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "577c9c0a-5596-4352-91ce-7e0233170b83")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 112.6452 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "UART_MCU_TX_RFD900_RX"
 		(shape input)
-		(at 124.46 86.36 180)
+		(at 124.46 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1449,7 +1843,7 @@
 		)
 		(uuid "6af74549-8787-4061-9ddd-3cb256a8e1b8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.9821 86.36 0)
+			(at 96.9821 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1477,6 +1871,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPS_FIX"
+		(shape input)
+		(at 165.1 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8a0a945e-f445-413c-940d-a7541b4037cd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 175.7052 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -1920,6 +2336,74 @@
 			(project "atlas-flight-controller-board"
 				(path "/99efb2d6-b5f7-438c-9ed2-f359400f01a1/ebeff960-adac-492b-ba2d-f8a8dedd6bc1"
 					(reference "U?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 69.85 86.36 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f54ad1a8-c7b1-4c58-8294-b98dc272a670")
+		(property "Reference" "J1"
+			(at 69.85 76.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "UART8 RPI Screw Term"
+			(at 69.85 78.994 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
+			(at 69.85 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 69.85 86.36 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c7dcbe01-b6e4-4cb4-9300-6daeb0dece09")
+		)
+		(pin "1"
+			(uuid "cff382d8-03e9-41b8-8472-b2d330b1f068")
+		)
+		(instances
+			(project ""
+				(path "/99efb2d6-b5f7-438c-9ed2-f359400f01a1/ebeff960-adac-492b-ba2d-f8a8dedd6bc1"
+					(reference "J1")
 					(unit 1)
 				)
 			)
