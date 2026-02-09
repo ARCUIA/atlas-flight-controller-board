@@ -826,6 +826,14 @@
 		(pin "1"
 			(uuid "1f4c6b73-7655-49ec-a163-1fc5fc9745ce")
 		)
+		(instances
+			(project ""
+				(path "/99efb2d6-b5f7-438c-9ed2-f359400f01a1/0e8824f2-4013-4596-998b-cdfa7c1cf328"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:+3V3")
@@ -883,6 +891,14 @@
 		)
 		(pin "1"
 			(uuid "7b0cb7e6-7275-4a83-b17e-4c44ae2c3713")
+		)
+		(instances
+			(project ""
+				(path "/99efb2d6-b5f7-438c-9ed2-f359400f01a1/0e8824f2-4013-4596-998b-cdfa7c1cf328"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -960,6 +976,14 @@
 		)
 		(pin "7"
 			(uuid "99ffd307-b1d7-4d23-b936-071700aa3357")
+		)
+		(instances
+			(project ""
+				(path "/99efb2d6-b5f7-438c-9ed2-f359400f01a1/0e8824f2-4013-4596-998b-cdfa7c1cf328"
+					(reference "J3")
+					(unit 1)
+				)
+			)
 		)
 	)
 )

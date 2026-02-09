@@ -1973,7 +1973,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5cee17d0-a034-4aa2-bca2-12ca3c74516d")
-		(property "Reference" "U?"
+		(property "Reference" "U2"
 			(at 144.78 33.02 0)
 			(effects
 				(font
@@ -1989,7 +1989,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DEV-16771:MODULE_DEV-16771"
+		(property "Footprint" "Teensy4.1:MODULE_DEV-16771"
 			(at 144.78 88.9 0)
 			(effects
 				(font
@@ -2335,7 +2335,7 @@
 		(instances
 			(project "atlas-flight-controller-board"
 				(path "/99efb2d6-b5f7-438c-9ed2-f359400f01a1/ebeff960-adac-492b-ba2d-f8a8dedd6bc1"
-					(reference "U?")
+					(reference "U2")
 					(unit 1)
 				)
 			)

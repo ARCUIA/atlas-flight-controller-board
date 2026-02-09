@@ -9,23 +9,24 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "RFD900x"
-				(at 0.508 0.254 0)
+			(property "Reference" "RFD900x1"
+				(at -0.254 0.254 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "~"
+				(at 0.12 17.78 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
 				(at 0 0 0)
 				(effects
 					(font
@@ -130,7 +131,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -148,7 +149,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -502,7 +503,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
 			(at 134.62 93.98 0)
 			(effects
 				(font
@@ -529,7 +530,7 @@
 				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "1"
 			(uuid "eead210c-711a-48b3-9761-91f963be25f1")
 		)
 		(pin ""
@@ -541,7 +542,7 @@
 		(pin ""
 			(uuid "b2ac62e4-8b5e-4550-9926-1b866439393f")
 		)
-		(pin ""
+		(pin "2"
 			(uuid "4c1173f2-e973-4690-a489-879862e5525e")
 		)
 		(pin ""
