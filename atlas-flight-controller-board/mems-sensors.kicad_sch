@@ -2023,6 +2023,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 161.29) (xy 54.61 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53476db2-730f-4764-8fb6-4a4675a3ada5")
+	)
+	(wire
+		(pts
 			(xy 182.88 40.64) (xy 200.66 40.64)
 		)
 		(stroke
@@ -2063,16 +2073,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 149.86) (xy 52.07 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "615414f3-7d78-4492-a348-838c1439ffce")
-	)
-	(wire
-		(pts
 			(xy 203.2 95.25) (xy 203.2 93.98)
 		)
 		(stroke
@@ -2103,6 +2103,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 158.75) (xy 54.61 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75ef8345-7460-4b4c-93bc-48ce8e7dc885")
+	)
+	(wire
+		(pts
 			(xy 207.01 93.98) (xy 207.01 95.25)
 		)
 		(stroke
@@ -2120,6 +2130,16 @@
 			(type default)
 		)
 		(uuid "7b0a543f-171a-4bd7-94ed-6af5db161cb0")
+	)
+	(wire
+		(pts
+			(xy 53.34 153.67) (xy 54.61 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7de3e6b7-964c-42aa-9ee5-8f784627541a")
 	)
 	(wire
 		(pts
@@ -2180,16 +2200,6 @@
 			(type default)
 		)
 		(uuid "aa6397bc-1037-4031-81ff-7dfde0e412eb")
-	)
-	(wire
-		(pts
-			(xy 54.61 151.13) (xy 52.07 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7536264-5e70-47ca-a8a7-44499dceaa8c")
 	)
 	(wire
 		(pts
@@ -2331,9 +2341,9 @@
 		)
 		(uuid "fbeca2d6-bb8c-405e-a48d-a725f675466f")
 	)
-	(global_label "I2C_SCL"
+	(global_label "SCK_1"
 		(shape input)
-		(at 54.61 153.67 180)
+		(at 53.34 153.67 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2343,7 +2353,7 @@
 		)
 		(uuid "23818bd5-0043-4d40-8233-e253ec623bdb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.0653 153.67 0)
+			(at 44.4282 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2551,6 +2561,28 @@
 			)
 		)
 	)
+	(global_label "CS_MAG"
+		(shape input)
+		(at 54.61 151.13 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ba29355b-5ef9-4ffb-b129-3825cd0082a9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 44.3677 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MOSI_1"
 		(shape input)
 		(at 78.74 46.99 90)
@@ -2573,9 +2605,9 @@
 			)
 		)
 	)
-	(global_label "MAG_INT"
+	(global_label "MISO_1"
 		(shape input)
-		(at 54.61 161.29 180)
+		(at 53.34 161.29 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2585,7 +2617,7 @@
 		)
 		(uuid "dc9c2fec-777b-449b-a278-69c0931d7768")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 43.9443 161.29 0)
+			(at 43.5815 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2617,9 +2649,9 @@
 			)
 		)
 	)
-	(global_label "I2C_SDA"
+	(global_label "MOSI_1"
 		(shape input)
-		(at 54.61 158.75 180)
+		(at 53.34 158.75 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2629,7 +2661,7 @@
 		)
 		(uuid "e2e8ed59-7e93-4b7b-9bf1-fa7561fee952")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.0048 158.75 0)
+			(at 43.5815 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3953,72 +3985,6 @@
 			(project "atlas-flight-controller-board"
 				(path "/99efb2d6-b5f7-438c-9ed2-f359400f01a1/5584e1ef-6e93-420a-9bdf-15a5926ce2b3"
 					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 52.07 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "af2b2d6f-379c-496a-8eb7-6365b5efc161")
-		(property "Reference" "#PWR0111"
-			(at 52.07 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 52.07 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 52.07 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.07 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 52.07 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e3f8748f-26bc-48b7-8123-b874be5719e1")
-		)
-		(instances
-			(project "atlas-flight-controller-board"
-				(path "/99efb2d6-b5f7-438c-9ed2-f359400f01a1/5584e1ef-6e93-420a-9bdf-15a5926ce2b3"
-					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
