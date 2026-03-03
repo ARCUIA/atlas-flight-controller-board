@@ -996,17 +996,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 58.42) (xy 67.31 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f615ebf-6fb9-4647-9694-30ef1b811275")
-	)
-	(wire
-		(pts
-			(xy 59.69 46.99) (xy 67.31 46.99)
+			(xy 41.91 46.99) (xy 67.31 46.99)
 		)
 		(stroke
 			(width 0)
@@ -1026,7 +1016,27 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 49.53) (xy 59.69 49.53)
+			(xy 48.26 49.53) (xy 41.91 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75246970-f766-4068-ae62-f18f3b62346c")
+	)
+	(wire
+		(pts
+			(xy 48.26 58.42) (xy 48.26 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4bebaa0-bc36-4803-82aa-18f4629f9120")
+	)
+	(wire
+		(pts
+			(xy 67.31 58.42) (xy 48.26 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1142,7 +1152,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 54.61 49.53 180)
+		(at 36.83 49.53 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1151,7 +1161,7 @@
 		(fields_autoplaced yes)
 		(uuid "45f23181-995d-4d71-aa48-ec43806fc6d4")
 		(property "Reference" "J4"
-			(at 54.61 40.64 0)
+			(at 36.83 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1159,7 +1169,7 @@
 			)
 		)
 		(property "Value" "5V Input Power"
-			(at 54.61 43.18 0)
+			(at 36.83 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1167,7 +1177,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
-			(at 54.61 49.53 0)
+			(at 36.83 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1176,7 +1186,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 54.61 49.53 0)
+			(at 36.83 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1185,7 +1195,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 54.61 49.53 0)
+			(at 36.83 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
