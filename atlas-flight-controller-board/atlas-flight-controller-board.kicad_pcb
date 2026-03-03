@@ -351,13 +351,13 @@
 	(footprint "LSM6DSV80X:LSM6DSV16BXTR"
 		(layer "F.Cu")
 		(uuid "23e6aa89-8e42-46ef-8513-ff6509684795")
-		(at 160.2618 84.5502)
+		(at 157.48 82.18)
 		(descr "LGA-14L 2.5 x 3.0 x 0.74 mm XDM)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC1"
 			(at 0 0 0)
 			(layer "F.SilkS")
-			(uuid "fe769ef0-0eb0-40da-ac01-d7ed999c8901")
+			(uuid "c03f4bc4-e39d-4193-9f44-3fca03b361dc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -369,7 +369,7 @@
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "ad95a3f7-056f-4df8-b494-2ee0eb0985ce")
+			(uuid "dd4b6097-be3d-4bed-b0a3-1798c19104b2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -381,7 +381,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "68c3515d-fc1d-43e4-b8b0-6dbc2014c609")
+			(uuid "ac3f66c7-3e71-462d-9c7f-3cb41c50cdca")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -393,7 +393,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "75eaa293-b6e5-4028-875c-bce17a438fc9")
+			(uuid "43c22d65-34cc-4841-8f56-8b9ce66fc116")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -782,13 +782,13 @@
 	(footprint "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "5c732844-95eb-4976-8e2b-b87cf9603747")
-		(at 149.606 111.76 -90)
+		(at 146.558 111.76 -90)
 		(descr "Terminal Block Xinya XY308-2.54-2P, 2 pins, pitch 2.54mm, size 5.58x6.5mm, drill diameter 1.2mm, pad diameter 2mm, http://www.xinyaelectronic.com/product/xy308-254, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Xinya")
 		(tags "THT Terminal Block Xinya XY308-2.54-2P pitch 2.54mm size 5.58x6.5mm drill 1.2mm pad 2mm")
 		(property "Reference" "J1"
 			(at 1.27 -4.22 90)
 			(layer "F.SilkS")
-			(uuid "d25fa628-5b13-4b7c-898e-5cce7809acc0")
+			(uuid "11bd44af-d37d-48cc-81ee-00b27c7b351f")
 			(effects
 				(font
 					(size 1 1)
@@ -799,7 +799,7 @@
 		(property "Value" "UART8 RPI Screw Term"
 			(at 1.27 4.52 90)
 			(layer "F.Fab")
-			(uuid "3f866e1e-def4-4f58-b492-ce3fece23f5a")
+			(uuid "7bc4ad6e-78b3-4b1e-972d-db21edfdaff8")
 			(effects
 				(font
 					(size 1 1)
@@ -811,7 +811,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d74246a1-6a5f-45e0-aa8e-27906bdb41bb")
+			(uuid "e7b43254-9572-49df-9e7e-9606ad5c1943")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -823,7 +823,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2f2d2bfb-495d-4859-b7fb-d62179f0ded1")
+			(uuid "d4ab25d1-f02d-4834-a1eb-11cecafac9f6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3461,11 +3461,11 @@
 	(footprint "Teensy4.1:MODULE_DEV-16771"
 		(layer "F.Cu")
 		(uuid "b0102de7-87a5-4a4f-a737-b311d2a8cd53")
-		(at 129.286 87.63 -90)
+		(at 128.27 86.36 -90)
 		(property "Reference" "U2"
 			(at 4.953 -6.977 90)
 			(layer "F.SilkS")
-			(uuid "a7e13526-7852-49a9-9165-d3a2b19d006f")
+			(uuid "5dfc30ca-649b-454c-865a-39506dca9089")
 			(effects
 				(font
 					(size 1 1)
@@ -3476,7 +3476,7 @@
 		(property "Value" "DEV-16771"
 			(at -20.36 10.705 90)
 			(layer "F.Fab")
-			(uuid "03294c63-1bdb-4fb9-8f54-000e8f0e8289")
+			(uuid "37543fc3-c7a4-4afa-b11b-7d369cbe3713")
 			(effects
 				(font
 					(size 1 1)
@@ -3488,7 +3488,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a178a713-6485-47c5-ba09-f1953beb6877")
+			(uuid "cff767c5-e817-4dc9-ae41-8dd067094001")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3500,7 +3500,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1fda40e4-1958-4a98-860b-6a277b3b71d1")
+			(uuid "86fcd549-886a-4340-853d-11325659a7c7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4930,7 +4930,7 @@
 		(property "Reference" "IC2"
 			(at 0.1 -2.25 0)
 			(layer "F.SilkS")
-			(uuid "497a58aa-fe9e-4b1a-94cb-39f352e388b1")
+			(uuid "dea9fd3d-509c-4ef5-b342-05096cd566ec")
 			(effects
 				(font
 					(size 1 1)
@@ -4941,7 +4941,7 @@
 		(property "Value" "LPS22HHTR"
 			(at -0.15 2.1 0)
 			(layer "F.Fab")
-			(uuid "53790593-38f2-4aeb-b9a4-6dbff9b074ce")
+			(uuid "585bdff8-1f50-45a2-8052-43fec1a9aec5")
 			(effects
 				(font
 					(size 1 1)
@@ -4953,7 +4953,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9f11a2a1-21bb-49ab-85ac-2eaced774a10")
+			(uuid "1ab28140-cf98-4b05-8d92-c6bd6083405f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4965,7 +4965,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2678b636-2030-4669-91d1-57223b8e7a5d")
+			(uuid "c3d6d3e3-ac69-4a6f-9c6a-5bbdce2b006b")
 			(effects
 				(font
 					(size 1.27 1.27)
