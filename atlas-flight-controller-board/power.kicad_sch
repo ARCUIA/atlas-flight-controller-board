@@ -1449,7 +1449,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LM3940IMPX-3.3_NOPB:SOT230P700X180-4N"
+		(property "Footprint" "LM3940IMPX-3:SOT230P700X180-4N"
 			(at 100.33 49.53 0)
 			(effects
 				(font
