@@ -1856,10 +1856,6 @@
 		(uuid "18935b3e-0818-4184-86d1-47e52196de90")
 	)
 	(no_connect
-		(at 99.06 62.23)
-		(uuid "4e6fff3d-5a34-40fe-a347-a9d916450e61")
-	)
-	(no_connect
 		(at 95.25 158.75)
 		(uuid "5eca3add-a6a8-46dd-9c30-d522ade3a89b")
 	)
@@ -1870,6 +1866,10 @@
 	(no_connect
 		(at 95.25 161.29)
 		(uuid "bbc780eb-e731-451e-84b1-d9695948ab0d")
+	)
+	(no_connect
+		(at 99.06 62.23)
+		(uuid "f757050b-c0cf-4aad-9fe4-ef5f8956999f")
 	)
 	(wire
 		(pts
@@ -2013,6 +2013,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 90.17) (xy 72.39 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4918d2cd-c12f-4c40-b2b7-f48dfe340793")
+	)
+	(wire
+		(pts
 			(xy 83.82 87.63) (xy 83.82 91.44)
 		)
 		(stroke
@@ -2090,16 +2100,6 @@
 			(type default)
 		)
 		(uuid "6a212f46-5cef-4be0-b440-e3a48acdfdff")
-	)
-	(wire
-		(pts
-			(xy 73.66 90.17) (xy 73.66 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6aafb3e9-4ed4-4cac-82e7-963c25b401a2")
 	)
 	(wire
 		(pts
@@ -2263,7 +2263,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 91.44) (xy 78.74 91.44)
+			(xy 72.39 91.44) (xy 78.74 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2303,7 +2303,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 119.38) (xy 99.06 133.35)
+			(xy 99.06 127) (xy 99.06 133.35)
 		)
 		(stroke
 			(width 0)
@@ -2741,72 +2741,6 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 99.06 119.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "285a469c-3496-47e1-bd9e-148adcfd0408")
-		(property "Reference" "#PWR0108"
-			(at 99.06 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 99.06 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 99.06 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 99.06 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "64a7c394-c02c-4d46-a6bf-a84203c4f7ef")
-		)
-		(instances
-			(project "atlas-flight-controller-board"
-				(path "/99efb2d6-b5f7-438c-9ed2-f359400f01a1/5584e1ef-6e93-420a-9bdf-15a5926ce2b3"
-					(reference "#PWR0108")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
 		(at 113.03 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2814,8 +2748,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2cf8dcec-dfe1-4527-96e5-3d81a75ff23e")
-		(property "Reference" "#PWR0113"
+		(uuid "1cdf9cd5-e95c-43fb-8963-0bf06440d265")
+		(property "Reference" "#PWR010"
 			(at 113.03 69.85 0)
 			(effects
 				(font
@@ -2860,12 +2794,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "53574d42-7fb2-44bc-a46a-0709a2f01f70")
+			(uuid "49f73064-c37c-42bb-a5f0-44498d8745ff")
 		)
 		(instances
-			(project "atlas-flight-controller-board"
+			(project ""
 				(path "/99efb2d6-b5f7-438c-9ed2-f359400f01a1/5584e1ef-6e93-420a-9bdf-15a5926ce2b3"
-					(reference "#PWR0113")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -3005,16 +2939,16 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 182.88 38.1 0)
+		(at 99.06 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3d2e3f13-7fec-492f-95a4-5e68dd1f0cd3")
-		(property "Reference" "#PWR0105"
-			(at 182.88 41.91 0)
+		(uuid "3b12599e-31d8-4be3-82ba-776ebb0edcdb")
+		(property "Reference" "#PWR06"
+			(at 99.06 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3023,7 +2957,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 182.88 33.02 0)
+			(at 99.06 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3031,7 +2965,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 38.1 0)
+			(at 99.06 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3040,7 +2974,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 38.1 0)
+			(at 99.06 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3049,7 +2983,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 182.88 38.1 0)
+			(at 99.06 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3058,12 +2992,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "d795a6c6-a8da-498e-b280-39c55a03c997")
+			(uuid "cd980cd5-6b03-4eef-bd3d-eb1354d40ba0")
 		)
 		(instances
 			(project "atlas-flight-controller-board"
 				(path "/99efb2d6-b5f7-438c-9ed2-f359400f01a1/5584e1ef-6e93-420a-9bdf-15a5926ce2b3"
-					(reference "#PWR0105")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -3500,72 +3434,6 @@
 			(project ""
 				(path "/99efb2d6-b5f7-438c-9ed2-f359400f01a1/5584e1ef-6e93-420a-9bdf-15a5926ce2b3"
 					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 73.66 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "806b5d03-96fd-412a-878e-49e862a2be34")
-		(property "Reference" "#PWR0110"
-			(at 73.66 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 73.66 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 73.66 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 73.66 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "48bb5009-7fd1-4006-b0ad-510881d2d679")
-		)
-		(instances
-			(project "atlas-flight-controller-board"
-				(path "/99efb2d6-b5f7-438c-9ed2-f359400f01a1/5584e1ef-6e93-420a-9bdf-15a5926ce2b3"
-					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -4059,6 +3927,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 72.39 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb491db3-af30-4951-9304-93cb7fc161b0")
+		(property "Reference" "#PWR013"
+			(at 72.39 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 72.39 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 72.39 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f37fb110-8fbd-40bc-a956-6525d2c25c89")
+		)
+		(instances
+			(project ""
+				(path "/99efb2d6-b5f7-438c-9ed2-f359400f01a1/5584e1ef-6e93-420a-9bdf-15a5926ce2b3"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 102.87 153.67 270)
 		(unit 1)
@@ -4121,6 +4055,72 @@
 			(project "atlas-flight-controller-board"
 				(path "/99efb2d6-b5f7-438c-9ed2-f359400f01a1/5584e1ef-6e93-420a-9bdf-15a5926ce2b3"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 182.88 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce20982d-f2e2-4cb6-b703-5a5063262a98")
+		(property "Reference" "#PWR011"
+			(at 182.88 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 182.88 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 182.88 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "417ec630-90c7-4e49-8149-13f893f67ed8")
+		)
+		(instances
+			(project "atlas-flight-controller-board"
+				(path "/99efb2d6-b5f7-438c-9ed2-f359400f01a1/5584e1ef-6e93-420a-9bdf-15a5926ce2b3"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
