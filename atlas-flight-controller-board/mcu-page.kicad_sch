@@ -195,6 +195,130 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Teensy4.1:DEV-16771"
 			(pin_names
 				(offset 1.016)
@@ -1912,6 +2036,18 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 203.2 114.3)
+		(end 254 143.51)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 34dbe24d-acc8-41cb-a366-bc5dd6f1d8c3)
+	)
 	(text "CUT VIN-VUSB TRACE. USB WILL NOT POWER THIS DEVICE\n"
 		(exclude_from_sim no)
 		(at 148.082 26.162 0)
@@ -1983,6 +2119,26 @@
 			(type default)
 		)
 		(uuid "49185f8b-d120-4587-afed-4ac952a3b701")
+	)
+	(wire
+		(pts
+			(xy 214.63 129.54) (xy 215.9 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e99210e-8e47-463c-ba0e-6c424c656ab0")
+	)
+	(wire
+		(pts
+			(xy 214.63 127) (xy 215.9 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71e6bef4-aea3-4696-9bf6-23023fce6130")
 	)
 	(wire
 		(pts
@@ -2072,6 +2228,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "R_led"
+		(shape input)
+		(at 214.63 129.54 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0b6a9ef4-26a3-4846-80b4-13c847532c59")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 206.5044 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -2186,6 +2364,50 @@
 			)
 		)
 	)
+	(global_label "L_led"
+		(shape input)
+		(at 124.46 129.54 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "368b5f06-3e7d-42a6-b522-ab89cf6c5a6a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 116.5763 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "L_led"
+		(shape input)
+		(at 214.63 127 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "43439dc5-d320-4f75-9ca9-4058f40c6dbe")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 206.7463 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "UART_GPS_TX_MCU_RX"
 		(shape input)
 		(at 124.46 68.58 180)
@@ -2226,6 +2448,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "R_led"
+		(shape input)
+		(at 165.1 129.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4ca89007-c0d3-4dac-9ee7-72961fdcb382")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 173.2256 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -2963,6 +3207,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 219.71 127 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5df34153-803e-4ac9-8828-39d63b30493d")
+		(property "Reference" "R1"
+			(at 219.71 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10"
+			(at 219.71 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 219.71 128.778 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 219.71 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 219.71 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "790dbfbb-f4ea-447d-8671-f26ff5c0e13a")
+		)
+		(pin "1"
+			(uuid "abc06c47-6d9f-4e82-bec5-b54298fbe7a5")
+		)
+		(instances
+			(project ""
+				(path "/99efb2d6-b5f7-438c-9ed2-f359400f01a1/ebeff960-adac-492b-ba2d-f8a8dedd6bc1"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 116.84 50.8 0)
 		(unit 1)
@@ -3023,6 +3335,143 @@
 			(project ""
 				(path "/99efb2d6-b5f7-438c-9ed2-f359400f01a1/ebeff960-adac-492b-ba2d-f8a8dedd6bc1"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 219.71 129.54 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "896e4b46-a969-4d8a-b5c9-d671ff8a430c")
+		(property "Reference" "R2"
+			(at 219.456 132.588 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10"
+			(at 219.456 135.128 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 219.71 127.762 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 219.71 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 219.71 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "753df3ea-13e7-459b-ae5d-3b1f059da357")
+		)
+		(pin "2"
+			(uuid "e4dd0db8-bc8a-41b7-94a8-72133200659a")
+		)
+		(instances
+			(project ""
+				(path "/99efb2d6-b5f7-438c-9ed2-f359400f01a1/ebeff960-adac-492b-ba2d-f8a8dedd6bc1"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 228.6 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9442fca0-d782-45dc-9664-42ceda035197")
+		(property "Reference" "J1"
+			(at 231.14 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED Indicator Header"
+			(at 231.14 129.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
+			(at 228.6 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 228.6 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84547379-9b2a-477b-a89a-eb2cbe3145fb")
+		)
+		(pin "2"
+			(uuid "aa5d8a84-fa80-4404-ad33-a2f7cd5a23e1")
+		)
+		(instances
+			(project "atlas-flight-controller-board"
+				(path "/99efb2d6-b5f7-438c-9ed2-f359400f01a1/ebeff960-adac-492b-ba2d-f8a8dedd6bc1"
+					(reference "J1")
 					(unit 1)
 				)
 			)
