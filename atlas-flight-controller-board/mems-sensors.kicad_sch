@@ -2237,7 +2237,7 @@
 		)
 		(uuid "fbeca2d6-bb8c-405e-a48d-a725f675466f")
 	)
-	(global_label "SCK_1"
+	(global_label "SCK_MEMS"
 		(shape input)
 		(at 53.34 153.67 180)
 		(fields_autoplaced yes)
@@ -2249,7 +2249,7 @@
 		)
 		(uuid "23818bd5-0043-4d40-8233-e253ec623bdb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.4282 153.67 0)
+			(at 40.3764 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2259,7 +2259,7 @@
 			)
 		)
 	)
-	(global_label "MISO_1"
+	(global_label "MISO_MEMS"
 		(shape input)
 		(at 207.01 95.25 270)
 		(fields_autoplaced yes)
@@ -2271,7 +2271,7 @@
 		)
 		(uuid "39b7baee-8fb3-455a-a11f-a8be3ab9115d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 207.01 105.0085 90)
+			(at 207.01 109.0603 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2281,7 +2281,7 @@
 			)
 		)
 	)
-	(global_label "SCK_1"
+	(global_label "SCK_MEMS"
 		(shape input)
 		(at 81.28 46.99 90)
 		(fields_autoplaced yes)
@@ -2293,7 +2293,7 @@
 		)
 		(uuid "3e2e1b4e-6166-40ca-9544-d9879bac7abc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.28 38.0782 90)
+			(at 81.28 34.0264 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2325,7 +2325,7 @@
 			)
 		)
 	)
-	(global_label "MOSI_1"
+	(global_label "MOSI_MEMS"
 		(shape input)
 		(at 203.2 95.25 270)
 		(fields_autoplaced yes)
@@ -2337,7 +2337,7 @@
 		)
 		(uuid "57b6a97a-5dce-4587-aa53-363477ae3fde")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 203.2 105.0085 90)
+			(at 203.2 109.0603 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2347,7 +2347,7 @@
 			)
 		)
 	)
-	(global_label "MISO_1"
+	(global_label "MISO_MEMS"
 		(shape input)
 		(at 63.5 62.23 180)
 		(fields_autoplaced yes)
@@ -2359,7 +2359,7 @@
 		)
 		(uuid "69aa2843-a4e3-4d7d-9ad6-808d61d5092b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 53.7415 62.23 0)
+			(at 49.6897 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2369,7 +2369,7 @@
 			)
 		)
 	)
-	(global_label "SCK_1"
+	(global_label "SCK_MEMS"
 		(shape input)
 		(at 182.88 64.77 180)
 		(fields_autoplaced yes)
@@ -2381,7 +2381,7 @@
 		)
 		(uuid "6ae68827-44bd-45bc-8f79-749f29e84434")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 173.9682 64.77 0)
+			(at 169.9164 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2479,7 +2479,7 @@
 			)
 		)
 	)
-	(global_label "MOSI_1"
+	(global_label "MOSI_MEMS"
 		(shape input)
 		(at 78.74 46.99 90)
 		(fields_autoplaced yes)
@@ -2491,7 +2491,7 @@
 		)
 		(uuid "c1a7a9fc-d52d-4486-96eb-b5bb88fe0567")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 78.74 37.2315 90)
+			(at 78.74 33.1797 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2501,7 +2501,7 @@
 			)
 		)
 	)
-	(global_label "MISO_1"
+	(global_label "MISO_MEMS"
 		(shape input)
 		(at 53.34 161.29 180)
 		(fields_autoplaced yes)
@@ -2513,7 +2513,7 @@
 		)
 		(uuid "dc9c2fec-777b-449b-a278-69c0931d7768")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 43.5815 161.29 0)
+			(at 39.5297 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2545,7 +2545,7 @@
 			)
 		)
 	)
-	(global_label "MOSI_1"
+	(global_label "MOSI_MEMS"
 		(shape input)
 		(at 53.34 158.75 180)
 		(fields_autoplaced yes)
@@ -2557,7 +2557,7 @@
 		)
 		(uuid "e2e8ed59-7e93-4b7b-9bf1-fa7561fee952")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 43.5815 158.75 0)
+			(at 39.5297 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)

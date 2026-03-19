@@ -2026,16 +2026,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 86.36) (xy 124.46 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "afeaeb5f-8ca7-4fb0-abfe-90b0502d2e31")
-	)
-	(wire
-		(pts
 			(xy 110.49 53.34) (xy 116.84 53.34)
 		)
 		(stroke
@@ -2064,7 +2054,7 @@
 		)
 		(uuid "e46b37a7-ba8b-4257-b777-f6688830dd28")
 	)
-	(global_label "MOSI_1"
+	(global_label "MOSI_SD"
 		(shape input)
 		(at 165.1 121.92 0)
 		(fields_autoplaced yes)
@@ -2076,7 +2066,7 @@
 		)
 		(uuid "05feb02f-52ba-487a-b945-edbadd48e71b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.8585 121.92 0)
+			(at 176.1285 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2110,27 +2100,27 @@
 	)
 	(global_label "UART_RFD900_TX_MCU_RX"
 		(shape input)
-		(at 165.1 124.46 0)
+		(at 124.46 127 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "27039829-82da-4545-a372-3c63efbc737a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 192.5779 124.46 0)
+			(at 96.9821 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
-	(global_label "MOSI"
+	(global_label "MOSI_MEMS"
 		(shape input)
 		(at 165.1 101.6 0)
 		(fields_autoplaced yes)
@@ -2142,7 +2132,7 @@
 		)
 		(uuid "281d0a85-5a18-459c-8021-87ddaeb8af1a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 172.6814 101.6 0)
+			(at 178.9103 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2154,44 +2144,44 @@
 	)
 	(global_label "IMU_INT1"
 		(shape input)
-		(at 124.46 86.36 180)
+		(at 165.1 81.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "28fb9545-1f7b-4dc5-8a07-ad6cea4c3d14")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.0081 86.36 0)
+			(at 176.5519 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "IMU_INT2"
 		(shape input)
-		(at 124.46 83.82 180)
+		(at 165.1 127 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "2de97b52-d87f-41d1-865c-50e5ff626169")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.0081 83.82 0)
+			(at 176.5519 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -2220,29 +2210,7 @@
 	)
 	(global_label "CS_MAG"
 		(shape input)
-		(at 165.1 116.84 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4c908422-91de-4d79-a2a1-aca8e197497d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.3423 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BARO_INT"
-		(shape input)
-		(at 124.46 101.6 180)
+		(at 124.46 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2250,9 +2218,9 @@
 			)
 			(justify right)
 		)
-		(uuid "577c9c0a-5596-4352-91ce-7e0233170b83")
+		(uuid "4c908422-91de-4d79-a2a1-aca8e197497d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 112.6452 101.6 0)
+			(at 114.2177 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2262,9 +2230,31 @@
 			)
 		)
 	)
+	(global_label "BARO_INT"
+		(shape input)
+		(at 165.1 124.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "577c9c0a-5596-4352-91ce-7e0233170b83")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 176.9148 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CS_IMU"
 		(shape input)
-		(at 165.1 91.44 0)
+		(at 165.1 93.98 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2274,7 +2264,7 @@
 		)
 		(uuid "58d0c442-b0a2-4207-bd35-c948e2782e4e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.919 91.44 0)
+			(at 174.919 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2286,22 +2276,22 @@
 	)
 	(global_label "UART_MCU_TX_RFD900_RX"
 		(shape input)
-		(at 165.1 127 0)
+		(at 124.46 124.46 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "6af74549-8787-4061-9ddd-3cb256a8e1b8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 192.5779 127 0)
+			(at 96.9821 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -2328,7 +2318,7 @@
 			)
 		)
 	)
-	(global_label "SCK"
+	(global_label "SCK_MEMS"
 		(shape input)
 		(at 124.46 104.14 180)
 		(fields_autoplaced yes)
@@ -2340,7 +2330,7 @@
 		)
 		(uuid "9005355b-3e91-439e-814d-63dbbe9e17ba")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 117.7253 104.14 0)
+			(at 111.4964 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2350,7 +2340,7 @@
 			)
 		)
 	)
-	(global_label "MISO"
+	(global_label "MISO_MEMS"
 		(shape input)
 		(at 165.1 99.06 0)
 		(fields_autoplaced yes)
@@ -2362,7 +2352,7 @@
 		)
 		(uuid "99d45c43-a8b7-46b3-8497-3d713e04e9d5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 172.6814 99.06 0)
+			(at 178.9103 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2374,29 +2364,29 @@
 	)
 	(global_label "CS_BARO"
 		(shape input)
-		(at 165.1 88.9 0)
+		(at 124.46 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "a7fc08e9-1a17-4a1c-ac71-c32159c66b8d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.4914 88.9 0)
+			(at 113.0686 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "CS_SD"
 		(shape input)
-		(at 165.1 93.98 0)
+		(at 165.1 116.84 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2406,7 +2396,7 @@
 		)
 		(uuid "b0397066-b1dc-4b31-97bd-a66658f6ec99")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.0118 93.98 0)
+			(at 174.0118 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2416,7 +2406,7 @@
 			)
 		)
 	)
-	(global_label "MISO_1"
+	(global_label "MISO_SD"
 		(shape input)
 		(at 165.1 114.3 0)
 		(fields_autoplaced yes)
@@ -2428,7 +2418,7 @@
 		)
 		(uuid "b2df87ee-2bc9-43b8-a942-d83ea14d3573")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.8585 114.3 0)
+			(at 176.1285 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2438,7 +2428,7 @@
 			)
 		)
 	)
-	(global_label "SCK_1"
+	(global_label "SCK_SD"
 		(shape input)
 		(at 165.1 119.38 0)
 		(fields_autoplaced yes)
@@ -2450,7 +2440,7 @@
 		)
 		(uuid "cee7ab84-adb8-45af-88ca-2de3c9c6f503")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.0118 119.38 0)
+			(at 175.2818 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
