@@ -5,6 +5,563 @@
 	(uuid "70ecad84-851f-40e2-adad-cd4511b66b32")
 	(paper "A4")
 	(lib_symbols
+		(symbol "APHBM2012LSURKZGKC:APHBM2012LSURKZGKC"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -3.0988 4.4958 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "APHBM2012LSURKZGKC"
+				(at -3.556 -3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "APHBM2012LSURKZGKC:LED_APHBM2012LSURKZGKC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Kingbright"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "0.45mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "0805 Kingbright"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/APHBM2012LSURKZGKC/Kingbright/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "V.10A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/APHBM2012LSURKZGKC/Kingbright/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "APHBM2012LSURKZGKC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "Green, Red 525nm Green, 630nm Red LED Indication - Discrete 2.7V Green, 1.8V Red 0805 (2012 Metric)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Kingbright"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "APHBM2012LSURKZGKC_1_0"
+				(polyline
+					(pts
+						(xy -2.54 1.524) (xy -2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -5.08 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.54 -1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.524) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.143 3.683) (xy -0.5715 3.175) (xy -0.1905 4.191) (xy -1.143 3.683)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 4.0386) (xy -2.1336 2.0066)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy -2.54 1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.127 3.6195) (xy 0.6985 3.1115) (xy 1.0795 4.191) (xy 0.127 3.6195)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.889 3.937) (xy -0.889 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 0 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "GREEN"
+					(at 2.54 2.54 0)
+					(effects
+						(font
+							(size 0.6096 0.6096)
+						)
+						(justify left bottom)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "APHBM2012LSURKZGKC_2_0"
+				(polyline
+					(pts
+						(xy -2.54 1.524) (xy -2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -5.08 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.54 -1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.524) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.143 3.683) (xy -0.5715 3.175) (xy -0.1905 4.191) (xy -1.143 3.683)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 4.0386) (xy -2.1336 2.0066)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy -2.54 1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.127 3.6195) (xy 0.6985 3.1115) (xy 1.0795 4.191) (xy 0.127 3.6195)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.889 3.937) (xy -0.889 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 0 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "RED"
+					(at 2.54 2.54 0)
+					(effects
+						(font
+							(size 0.6096 0.6096)
+						)
+						(justify left bottom)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Screw_Terminal_01x02"
 			(pin_names
 				(offset 1.016)
@@ -2037,8 +2594,20 @@
 		)
 	)
 	(rectangle
-		(start 203.2 114.3)
-		(end 254 143.51)
+		(start 177.8 134.62)
+		(end 228.6 163.83)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0edf51e3-9a68-4e99-aa79-c103973bd9a6)
+	)
+	(rectangle
+		(start 177.8 17.78)
+		(end 228.6 46.99)
 		(stroke
 			(width 0)
 			(type dash)
@@ -2048,9 +2617,57 @@
 		)
 		(uuid 34dbe24d-acc8-41cb-a366-bc5dd6f1d8c3)
 	)
+	(rectangle
+		(start 177.8 105.41)
+		(end 228.6 134.62)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid bcf71159-2a1b-4ba4-85da-266843f4b2be)
+	)
+	(rectangle
+		(start 228.6 17.78)
+		(end 279.4 46.99)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid cc2484c4-6bf5-4ae6-96e3-acc232f83af1)
+	)
+	(rectangle
+		(start 177.8 46.99)
+		(end 228.6 76.2)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid da6bdae1-9b63-4552-a1e9-806453c1518e)
+	)
+	(rectangle
+		(start 177.8 76.2)
+		(end 228.6 105.41)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid dd7beabc-fb31-4fe0-bce6-db0cb54ba70e)
+	)
 	(text "CUT VIN-VUSB TRACE. USB WILL NOT POWER THIS DEVICE\n"
 		(exclude_from_sim no)
-		(at 148.082 26.162 0)
+		(at 111.252 27.432 0)
 		(effects
 			(font
 				(size 2 2)
@@ -2059,20 +2676,74 @@
 		(uuid "2549b222-54eb-42f7-8ea7-9a18deee14bc")
 	)
 	(junction
-		(at 116.84 53.34)
+		(at 220.98 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d55f264-231b-400c-b7b0-102e6ab2d365")
+	)
+	(junction
+		(at 220.98 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "42c1fcda-f2e6-4872-88a7-58a4131cb482")
+	)
+	(junction
+		(at 80.01 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "44c0053c-b3c3-4f9d-8fd1-1204877a7ef5")
 	)
 	(junction
-		(at 167.64 137.16)
+		(at 220.98 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56302bf2-a413-4c00-ac8e-e4421ff9ffa1")
+	)
+	(junction
+		(at 130.81 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ded47628-c93e-4253-8eaf-7ce49f009777")
 	)
+	(junction
+		(at 271.78 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb955142-eabf-4f5e-8212-492e453d0832")
+	)
 	(wire
 		(pts
-			(xy 165.1 134.62) (xy 167.64 134.62)
+			(xy 269.24 26.67) (xy 271.78 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "020d7f37-8fa9-48c1-ad05-40b16b00147f")
+	)
+	(wire
+		(pts
+			(xy 271.78 26.67) (xy 271.78 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0aac98c1-acfd-4539-b79c-21a5e021811a")
+	)
+	(wire
+		(pts
+			(xy 271.78 35.56) (xy 271.78 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e9b3166-4b8f-4433-b1f1-d4e955d915e0")
+	)
+	(wire
+		(pts
+			(xy 128.27 135.89) (xy 130.81 135.89)
 		)
 		(stroke
 			(width 0)
@@ -2082,7 +2753,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 43.18) (xy 171.45 40.64)
+			(xy 134.62 44.45) (xy 134.62 41.91)
 		)
 		(stroke
 			(width 0)
@@ -2092,7 +2763,17 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 137.16) (xy 167.64 140.97)
+			(xy 220.98 152.4) (xy 220.98 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1717c38a-af45-496d-a241-0072e3569cba")
+	)
+	(wire
+		(pts
+			(xy 130.81 138.43) (xy 130.81 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2102,7 +2783,27 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 53.34) (xy 116.84 50.8)
+			(xy 218.44 85.09) (xy 220.98 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "200e14c3-c02e-4984-9d08-b9429998d52a")
+	)
+	(wire
+		(pts
+			(xy 220.98 114.3) (xy 220.98 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30d777b2-711d-48a9-a9bd-b8999ac689b5")
+	)
+	(wire
+		(pts
+			(xy 80.01 54.61) (xy 80.01 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2112,7 +2813,17 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 53.34) (xy 124.46 53.34)
+			(xy 220.98 85.09) (xy 220.98 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dd4da99-8f11-4082-aca1-5eef424cd3af")
+	)
+	(wire
+		(pts
+			(xy 80.01 54.61) (xy 87.63 54.61)
 		)
 		(stroke
 			(width 0)
@@ -2122,7 +2833,17 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 129.54) (xy 215.9 129.54)
+			(xy 218.44 123.19) (xy 220.98 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "599bb18b-f718-499b-9f22-563e58d8f920")
+	)
+	(wire
+		(pts
+			(xy 189.23 33.02) (xy 190.5 33.02)
 		)
 		(stroke
 			(width 0)
@@ -2132,7 +2853,27 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 127) (xy 215.9 127)
+			(xy 220.98 123.19) (xy 220.98 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fd3fcb2-f7fa-47d0-a676-e7e542d4ff69")
+	)
+	(wire
+		(pts
+			(xy 220.98 93.98) (xy 220.98 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6805c264-05fc-4f61-95f2-17e00d65b146")
+	)
+	(wire
+		(pts
+			(xy 189.23 30.48) (xy 190.5 30.48)
 		)
 		(stroke
 			(width 0)
@@ -2142,7 +2883,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 43.18) (xy 171.45 43.18)
+			(xy 128.27 44.45) (xy 134.62 44.45)
 		)
 		(stroke
 			(width 0)
@@ -2152,7 +2893,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 83.82) (xy 124.46 83.82)
+			(xy 92.71 85.09) (xy 87.63 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2162,7 +2903,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 55.88) (xy 116.84 55.88)
+			(xy 73.66 57.15) (xy 80.01 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2172,7 +2913,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 134.62) (xy 167.64 137.16)
+			(xy 130.81 135.89) (xy 130.81 138.43)
 		)
 		(stroke
 			(width 0)
@@ -2182,7 +2923,47 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 53.34) (xy 116.84 53.34)
+			(xy 218.44 152.4) (xy 220.98 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e8179a2-2dd3-49b2-a028-410acd8dd716")
+	)
+	(wire
+		(pts
+			(xy 269.24 35.56) (xy 271.78 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af9cd620-2e41-4a6b-bfa3-c1fb538d3be1")
+	)
+	(wire
+		(pts
+			(xy 218.44 93.98) (xy 220.98 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5329c58-dcbc-4a78-b338-9a48220c5450")
+	)
+	(wire
+		(pts
+			(xy 218.44 143.51) (xy 220.98 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7b51483-0f6d-4a0e-9162-0ba336d4d32b")
+	)
+	(wire
+		(pts
+			(xy 73.66 54.61) (xy 80.01 54.61)
 		)
 		(stroke
 			(width 0)
@@ -2192,7 +2973,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 137.16) (xy 167.64 137.16)
+			(xy 128.27 138.43) (xy 130.81 138.43)
 		)
 		(stroke
 			(width 0)
@@ -2202,7 +2983,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 55.88) (xy 116.84 57.15)
+			(xy 80.01 57.15) (xy 80.01 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2210,9 +2991,73 @@
 		)
 		(uuid "e46b37a7-ba8b-4257-b777-f6688830dd28")
 	)
+	(wire
+		(pts
+			(xy 220.98 143.51) (xy 220.98 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb78a576-3cbd-419d-9cdf-5463b44b6d0d")
+	)
+	(wire
+		(pts
+			(xy 218.44 114.3) (xy 220.98 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe50be6c-7f12-4d2f-8439-8ed25f5409ef")
+	)
+	(global_label "SD_LED_Green"
+		(shape input)
+		(at 248.92 26.67 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0019becb-d434-4f12-bab3-ba67075feffc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 232.6906 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USER_2_Green"
+		(shape input)
+		(at 198.12 143.51 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0200033d-e15c-4064-9883-604fb28a7b84")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 181.6487 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MOSI_SD"
 		(shape input)
-		(at 165.1 121.92 0)
+		(at 128.27 123.19 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2222,7 +3067,7 @@
 		)
 		(uuid "05feb02f-52ba-487a-b945-edbadd48e71b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.1285 121.92 0)
+			(at 139.2985 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2232,9 +3077,31 @@
 			)
 		)
 	)
+	(global_label "Ping_Red"
+		(shape input)
+		(at 198.12 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0b56e6df-af50-4a56-a5c4-c01e3aedd91f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 186.4868 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "R_led"
 		(shape input)
-		(at 214.63 129.54 180)
+		(at 189.23 33.02 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2244,7 +3111,7 @@
 		)
 		(uuid "0b6a9ef4-26a3-4846-80b4-13c847532c59")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 206.5044 129.54 0)
+			(at 181.1044 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2256,7 +3123,7 @@
 	)
 	(global_label "UART_MCU_TX_GPS_RX"
 		(shape input)
-		(at 124.46 71.12 180)
+		(at 87.63 72.39 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2266,7 +3133,30 @@
 		)
 		(uuid "172710ea-5365-4d6b-9fba-bb51d0ca6820")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.4897 71.12 0)
+			(at 63.6597 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Servo_1"
+		(shape input)
+		(at 87.63 120.65 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify right)
+		)
+		(uuid "1c263ed1-e731-4a06-808d-6f737365222d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 77.2668 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2278,7 +3168,7 @@
 	)
 	(global_label "UART_RFD900_TX_MCU_RX"
 		(shape input)
-		(at 124.46 127 180)
+		(at 87.63 128.27 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2288,7 +3178,7 @@
 		)
 		(uuid "27039829-82da-4545-a372-3c63efbc737a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.9821 127 0)
+			(at 60.1521 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2300,7 +3190,7 @@
 	)
 	(global_label "MOSI_MEMS"
 		(shape input)
-		(at 165.1 101.6 0)
+		(at 128.27 102.87 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2310,7 +3200,7 @@
 		)
 		(uuid "281d0a85-5a18-459c-8021-87ddaeb8af1a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 178.9103 101.6 0)
+			(at 142.0803 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2322,7 +3212,7 @@
 	)
 	(global_label "IMU_INT1"
 		(shape input)
-		(at 165.1 81.28 0)
+		(at 128.27 82.55 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2332,7 +3222,7 @@
 		)
 		(uuid "28fb9545-1f7b-4dc5-8a07-ad6cea4c3d14")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.5519 81.28 0)
+			(at 139.7219 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2344,7 +3234,7 @@
 	)
 	(global_label "IMU_INT2"
 		(shape input)
-		(at 165.1 127 0)
+		(at 128.27 128.27 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2354,7 +3244,7 @@
 		)
 		(uuid "2de97b52-d87f-41d1-865c-50e5ff626169")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.5519 127 0)
+			(at 139.7219 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2366,7 +3256,7 @@
 	)
 	(global_label "L_led"
 		(shape input)
-		(at 124.46 129.54 180)
+		(at 87.63 130.81 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2376,7 +3266,29 @@
 		)
 		(uuid "368b5f06-3e7d-42a6-b522-ab89cf6c5a6a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.5763 129.54 0)
+			(at 79.7463 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SD_LED_Red"
+		(shape input)
+		(at 248.92 35.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3ed82ca4-7f76-461c-942e-83ef93fe2ac8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 234.5654 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2388,7 +3300,7 @@
 	)
 	(global_label "L_led"
 		(shape input)
-		(at 214.63 127 180)
+		(at 189.23 30.48 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2398,7 +3310,7 @@
 		)
 		(uuid "43439dc5-d320-4f75-9ca9-4058f40c6dbe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 206.7463 127 0)
+			(at 181.3463 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2410,7 +3322,7 @@
 	)
 	(global_label "UART_GPS_TX_MCU_RX"
 		(shape input)
-		(at 124.46 68.58 180)
+		(at 87.63 69.85 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2420,7 +3332,7 @@
 		)
 		(uuid "443104fd-e841-4b49-ae85-d99977c8a36b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.4897 68.58 0)
+			(at 63.6597 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2432,7 +3344,7 @@
 	)
 	(global_label "CS_MAG"
 		(shape input)
-		(at 124.46 81.28 180)
+		(at 87.63 82.55 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2442,7 +3354,7 @@
 		)
 		(uuid "4c908422-91de-4d79-a2a1-aca8e197497d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 114.2177 81.28 0)
+			(at 77.3877 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2454,7 +3366,7 @@
 	)
 	(global_label "R_led"
 		(shape input)
-		(at 165.1 129.54 0)
+		(at 128.27 130.81 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2464,7 +3376,7 @@
 		)
 		(uuid "4ca89007-c0d3-4dac-9ee7-72961fdcb382")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 173.2256 129.54 0)
+			(at 136.3956 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2474,9 +3386,53 @@
 			)
 		)
 	)
+	(global_label "USER_2_Green"
+		(shape input)
+		(at 87.63 113.03 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4dfd4b31-1a9e-4177-aa7a-8e34d81d949a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 71.1587 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USER_1_Green"
+		(shape input)
+		(at 87.63 110.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "54bcc74d-f642-4b60-ac92-6c633f97638d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 71.1587 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "BARO_INT"
 		(shape input)
-		(at 165.1 124.46 0)
+		(at 128.27 125.73 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2486,7 +3442,7 @@
 		)
 		(uuid "577c9c0a-5596-4352-91ce-7e0233170b83")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.9148 124.46 0)
+			(at 140.0848 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2498,7 +3454,7 @@
 	)
 	(global_label "CS_IMU"
 		(shape input)
-		(at 165.1 93.98 0)
+		(at 128.27 95.25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2508,7 +3464,7 @@
 		)
 		(uuid "58d0c442-b0a2-4207-bd35-c948e2782e4e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.919 93.98 0)
+			(at 138.089 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2518,9 +3474,32 @@
 			)
 		)
 	)
+	(global_label "Servo_2"
+		(shape input)
+		(at 198.12 62.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify right)
+		)
+		(uuid "5f7f04f8-1f75-4e45-b9ff-b245604f2271")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 187.7568 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "UART_MCU_TX_RFD900_RX"
 		(shape input)
-		(at 124.46 124.46 180)
+		(at 87.63 125.73 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2530,7 +3509,75 @@
 		)
 		(uuid "6af74549-8787-4061-9ddd-3cb256a8e1b8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.9821 124.46 0)
+			(at 60.1521 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Servo_1"
+		(shape input)
+		(at 198.12 59.69 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify right)
+		)
+		(uuid "7111766e-6dfc-49d0-ad21-148e00c5d68c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 187.7568 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SD_LED_Green"
+		(shape input)
+		(at 128.27 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7ed59077-ac5d-43fb-a7df-45cc9d46f3bf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 144.4994 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Servo_2"
+		(shape input)
+		(at 87.63 123.19 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify right)
+		)
+		(uuid "8113d5a2-1adc-4e94-90ed-eb9423981562")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 77.2668 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2542,7 +3589,7 @@
 	)
 	(global_label "GPS_FIX"
 		(shape input)
-		(at 165.1 76.2 0)
+		(at 128.27 77.47 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2552,7 +3599,7 @@
 		)
 		(uuid "8a0a945e-f445-413c-940d-a7541b4037cd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.7052 76.2 0)
+			(at 138.8752 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2564,7 +3611,7 @@
 	)
 	(global_label "SCK_MEMS"
 		(shape input)
-		(at 124.46 104.14 180)
+		(at 87.63 105.41 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2574,7 +3621,29 @@
 		)
 		(uuid "9005355b-3e91-439e-814d-63dbbe9e17ba")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.4964 104.14 0)
+			(at 74.6664 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Ping_Green"
+		(shape input)
+		(at 87.63 118.11 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "98e5c3b9-fd1f-4089-af3f-aafd9f042c17")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 74.122 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2586,7 +3655,7 @@
 	)
 	(global_label "MISO_MEMS"
 		(shape input)
-		(at 165.1 99.06 0)
+		(at 128.27 100.33 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2596,7 +3665,7 @@
 		)
 		(uuid "99d45c43-a8b7-46b3-8497-3d713e04e9d5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 178.9103 99.06 0)
+			(at 142.0803 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2608,7 +3677,7 @@
 	)
 	(global_label "CS_BARO"
 		(shape input)
-		(at 124.46 78.74 180)
+		(at 87.63 80.01 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2618,7 +3687,29 @@
 		)
 		(uuid "a7fc08e9-1a17-4a1c-ac71-c32159c66b8d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.0686 78.74 0)
+			(at 76.2386 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USER_2_Red"
+		(shape input)
+		(at 198.12 152.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a851d620-6555-41a8-b3bd-979714099a8a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 183.5235 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2630,7 +3721,7 @@
 	)
 	(global_label "CS_SD"
 		(shape input)
-		(at 165.1 116.84 0)
+		(at 128.27 118.11 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2640,7 +3731,7 @@
 		)
 		(uuid "b0397066-b1dc-4b31-97bd-a66658f6ec99")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.0118 116.84 0)
+			(at 137.1818 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2652,7 +3743,7 @@
 	)
 	(global_label "MISO_SD"
 		(shape input)
-		(at 165.1 114.3 0)
+		(at 128.27 115.57 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2662,7 +3753,95 @@
 		)
 		(uuid "b2df87ee-2bc9-43b8-a942-d83ea14d3573")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.1285 114.3 0)
+			(at 139.2985 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Ping_Green"
+		(shape input)
+		(at 198.12 85.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b4c41e27-8d3d-4c31-a532-05588fbdc780")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 184.612 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SD_LED_Red"
+		(shape input)
+		(at 128.27 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b57a666e-6ed4-474a-aea2-74208ca54e9b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 142.6246 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Ping_Red"
+		(shape input)
+		(at 87.63 115.57 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b6257605-c245-47a8-96b4-54ab913e87ad")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 75.9968 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USER_2_Red"
+		(shape input)
+		(at 128.27 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c4ca656e-4a50-4cfa-b558-78c4369d68a9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 142.8665 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2674,7 +3853,7 @@
 	)
 	(global_label "SCK_SD"
 		(shape input)
-		(at 165.1 119.38 0)
+		(at 128.27 120.65 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2684,7 +3863,7 @@
 		)
 		(uuid "cee7ab84-adb8-45af-88ca-2de3c9c6f503")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.2818 119.38 0)
+			(at 138.4518 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2694,9 +3873,142 @@
 			)
 		)
 	)
+	(global_label "USER_1_Red"
+		(shape input)
+		(at 87.63 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d746c384-f708-4579-b32b-3b95bbdcc639")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 73.0335 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USER_1_Red"
+		(shape input)
+		(at 198.12 123.19 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e45ad79b-203c-4a92-8228-f837699b8b3d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 183.5235 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USER_1_Green"
+		(shape input)
+		(at 198.12 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fd201a6e-2caa-434c-9fc2-d6f4648b965c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 181.6487 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 203.2 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0372b972-9599-4fdf-b3d9-6dd525c3f70e")
+		(property "Reference" "SrvCtr1"
+			(at 209.804 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Servo Ctrl"
+			(at 210.058 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
+			(at 203.2 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 203.2 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9e1a5383-e918-4eba-9d56-34d17ef0c08f")
+		)
+		(pin "2"
+			(uuid "0a12b0ec-ddfb-4e12-b41b-2fe1dd799efc")
+		)
+		(instances
+			(project "atlas-flight-controller-board"
+				(path "/99efb2d6-b5f7-438c-9ed2-f359400f01a1/ebeff960-adac-492b-ba2d-f8a8dedd6bc1"
+					(reference "SrvCtr1")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 171.45 40.64 0)
+		(at 134.62 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2705,7 +4017,7 @@
 		(fields_autoplaced yes)
 		(uuid "08e6fe27-bfb1-468c-8c3a-c00be9af09a5")
 		(property "Reference" "#PWR08"
-			(at 171.45 44.45 0)
+			(at 134.62 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2714,7 +4026,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 171.45 35.56 0)
+			(at 134.62 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2722,7 +4034,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 171.45 40.64 0)
+			(at 134.62 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2731,7 +4043,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 40.64 0)
+			(at 134.62 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2740,7 +4052,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 171.45 40.64 0)
+			(at 134.62 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2761,33 +4073,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 105.41 55.88 180)
+		(lib_id "Device:R")
+		(at 214.63 123.19 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "45f23181-995d-4d71-aa48-ec43806fc6d4")
-		(property "Reference" "J4"
-			(at 105.41 46.99 0)
+		(uuid "0dd5a203-2ee1-482e-ad9a-d0d0d2173135")
+		(property "Reference" "R6"
+			(at 214.63 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "5V Input Power"
-			(at 105.41 49.53 0)
+		(property "Value" "100"
+			(at 214.63 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
-			(at 105.41 55.88 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 214.63 124.968 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2796,7 +4108,930 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 105.41 55.88 0)
+			(at 214.63 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 214.63 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b292a043-3c6f-457c-9bcb-8c4ea9c8baa9")
+		)
+		(pin "1"
+			(uuid "bd708a3b-99c8-4d6c-8c55-8f3672c7f37c")
+		)
+		(instances
+			(project "atlas-flight-controller-board"
+				(path "/99efb2d6-b5f7-438c-9ed2-f359400f01a1/ebeff960-adac-492b-ba2d-f8a8dedd6bc1"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "APHBM2012LSURKZGKC:APHBM2012LSURKZGKC")
+		(at 205.74 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0e55c04b-10f4-4598-bcab-66adc20c25d3")
+		(property "Reference" "D3"
+			(at 204.724 146.558 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "APHBM2012LSURKZGKC"
+			(at 205.9657 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "APHBM2012LSURKZGKC:LED_APHBM2012LSURKZGKC"
+			(at 205.74 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 205.74 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Kingbright"
+			(at 205.74 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.45mm"
+			(at 205.74 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805 Kingbright"
+			(at 205.74 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 205.74 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/APHBM2012LSURKZGKC/Kingbright/view-part/?ref=eda"
+			(at 205.74 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 205.74 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "V.10A"
+			(at 205.74 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/APHBM2012LSURKZGKC/Kingbright/view-part/?ref=snap"
+			(at 205.74 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "APHBM2012LSURKZGKC"
+			(at 205.74 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Green, Red 525nm Green, 630nm Red LED Indication - Discrete 2.7V Green, 1.8V Red 0805 (2012 Metric)"
+			(at 205.74 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 205.74 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Kingbright"
+			(at 205.74 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "5a14f926-fd5a-4074-ae78-9a185fa1197f")
+		)
+		(pin "3"
+			(uuid "66f22b1a-d201-46cf-bc0a-d54739930fa5")
+		)
+		(pin "1"
+			(uuid "15aa0520-cb37-46a7-a5a5-04e92765b62e")
+		)
+		(pin "2"
+			(uuid "fae37424-d3e8-49ea-bce7-4bfcc23884a7")
+		)
+		(instances
+			(project "atlas-flight-controller-board"
+				(path "/99efb2d6-b5f7-438c-9ed2-f359400f01a1/ebeff960-adac-492b-ba2d-f8a8dedd6bc1"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 220.98 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "164ad259-9398-42a1-b11d-a8f2005b8a37")
+		(property "Reference" "#PWR014"
+			(at 220.98 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 220.98 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 220.98 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "140d55b0-c571-4d94-83cf-a192e8fcb2c3")
+		)
+		(instances
+			(project "atlas-flight-controller-board"
+				(path "/99efb2d6-b5f7-438c-9ed2-f359400f01a1/ebeff960-adac-492b-ba2d-f8a8dedd6bc1"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 214.63 143.51 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "17eb4d25-c0d2-4599-961c-7d3a675312c2")
+		(property "Reference" "R7"
+			(at 214.63 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 214.63 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 214.63 145.288 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 214.63 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 214.63 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "330d9734-58ce-45d1-b5c6-eb5336a0f657")
+		)
+		(pin "1"
+			(uuid "bd558894-a4e1-48db-a0eb-31d2a7d5429d")
+		)
+		(instances
+			(project "atlas-flight-controller-board"
+				(path "/99efb2d6-b5f7-438c-9ed2-f359400f01a1/ebeff960-adac-492b-ba2d-f8a8dedd6bc1"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 265.43 26.67 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d52db4e-c53a-42dd-bd20-6cc919c5e6e2")
+		(property "Reference" "R9"
+			(at 265.43 20.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 265.43 22.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 265.43 28.448 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 265.43 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 265.43 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "155fbdc9-1d76-4159-bc50-aaacb6d48db2")
+		)
+		(pin "1"
+			(uuid "58906012-a41f-4479-a9b0-1dc322e56522")
+		)
+		(instances
+			(project "atlas-flight-controller-board"
+				(path "/99efb2d6-b5f7-438c-9ed2-f359400f01a1/ebeff960-adac-492b-ba2d-f8a8dedd6bc1"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 214.63 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d6ad43d-0176-4b5d-8619-1af11f164006")
+		(property "Reference" "R4"
+			(at 214.63 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 214.63 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 214.63 95.758 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 214.63 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 214.63 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e530446f-ea82-4ce3-a355-05bf026ba4b5")
+		)
+		(pin "1"
+			(uuid "a68c1b5a-9525-42f5-9d7a-cd795fb02e6a")
+		)
+		(instances
+			(project ""
+				(path "/99efb2d6-b5f7-438c-9ed2-f359400f01a1/ebeff960-adac-492b-ba2d-f8a8dedd6bc1"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "APHBM2012LSURKZGKC:APHBM2012LSURKZGKC")
+		(at 205.74 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2d74b8e0-2e29-45c7-9da5-29c1be32ea72")
+		(property "Reference" "D2"
+			(at 204.724 117.348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "APHBM2012LSURKZGKC"
+			(at 205.9657 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "APHBM2012LSURKZGKC:LED_APHBM2012LSURKZGKC"
+			(at 205.74 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 205.74 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Kingbright"
+			(at 205.74 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.45mm"
+			(at 205.74 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805 Kingbright"
+			(at 205.74 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 205.74 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/APHBM2012LSURKZGKC/Kingbright/view-part/?ref=eda"
+			(at 205.74 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 205.74 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "V.10A"
+			(at 205.74 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/APHBM2012LSURKZGKC/Kingbright/view-part/?ref=snap"
+			(at 205.74 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "APHBM2012LSURKZGKC"
+			(at 205.74 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Green, Red 525nm Green, 630nm Red LED Indication - Discrete 2.7V Green, 1.8V Red 0805 (2012 Metric)"
+			(at 205.74 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 205.74 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Kingbright"
+			(at 205.74 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "188b2c91-3cfc-4af4-835b-8bc72335ff84")
+		)
+		(pin "3"
+			(uuid "579ac417-efa8-49f9-b57e-3571066727ce")
+		)
+		(pin "1"
+			(uuid "15aa0520-cb37-46a7-a5a5-04e92765b62f")
+		)
+		(pin "2"
+			(uuid "fae37424-d3e8-49ea-bce7-4bfcc23884a8")
+		)
+		(instances
+			(project "atlas-flight-controller-board"
+				(path "/99efb2d6-b5f7-438c-9ed2-f359400f01a1/ebeff960-adac-492b-ba2d-f8a8dedd6bc1"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "APHBM2012LSURKZGKC:APHBM2012LSURKZGKC")
+		(at 205.74 93.98 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3f0dbd2e-550a-4892-9ece-98bd6cc27f9b")
+		(property "Reference" "D1"
+			(at 204.47 97.282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "APHBM2012LSURKZGKC"
+			(at 205.3706 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "APHBM2012LSURKZGKC:LED_APHBM2012LSURKZGKC"
+			(at 205.74 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 205.74 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Kingbright"
+			(at 205.74 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.45mm"
+			(at 205.74 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805 Kingbright"
+			(at 205.74 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 205.74 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/APHBM2012LSURKZGKC/Kingbright/view-part/?ref=eda"
+			(at 205.74 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 205.74 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "V.10A"
+			(at 205.74 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/APHBM2012LSURKZGKC/Kingbright/view-part/?ref=snap"
+			(at 205.74 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "APHBM2012LSURKZGKC"
+			(at 205.74 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Green, Red 525nm Green, 630nm Red LED Indication - Discrete 2.7V Green, 1.8V Red 0805 (2012 Metric)"
+			(at 205.74 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 205.74 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Kingbright"
+			(at 205.74 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "6c7fa832-c1f6-441e-ad44-771b44ff0dba")
+		)
+		(pin "3"
+			(uuid "3336c418-6a8f-4f6a-9476-484594ca8eeb")
+		)
+		(pin "1"
+			(uuid "15aa0520-cb37-46a7-a5a5-04e92765b62d")
+		)
+		(pin "2"
+			(uuid "fae37424-d3e8-49ea-bce7-4bfcc23884a6")
+		)
+		(instances
+			(project ""
+				(path "/99efb2d6-b5f7-438c-9ed2-f359400f01a1/ebeff960-adac-492b-ba2d-f8a8dedd6bc1"
+					(reference "D1")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 68.58 57.15 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45f23181-995d-4d71-aa48-ec43806fc6d4")
+		(property "Reference" "J4"
+			(at 68.58 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5V Input Power"
+			(at 68.58 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
+			(at 68.58 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2805,7 +5040,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 105.41 55.88 0)
+			(at 68.58 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2829,33 +5064,169 @@
 		)
 	)
 	(symbol
-		(lib_id "Teensy4.1:DEV-16771")
-		(at 144.78 88.9 0)
+		(lib_id "Device:R")
+		(at 265.43 35.56 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5cee17d0-a034-4aa2-bca2-12ca3c74516d")
-		(property "Reference" "U2"
-			(at 144.78 33.02 0)
+		(uuid "460fafc1-2b2e-46a4-856a-13f701b474a4")
+		(property "Reference" "R10"
+			(at 265.43 29.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "DEV-16771"
-			(at 144.78 35.56 0)
+		(property "Value" "100"
+			(at 265.43 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Teensy4.1:MODULE_DEV-16771"
-			(at 144.78 88.9 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 265.43 37.338 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 265.43 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 265.43 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2caef393-e1f8-4aa6-b247-e023bc1dc39c")
+		)
+		(pin "1"
+			(uuid "d1b3f996-2f64-4eb8-b943-284efe42c021")
+		)
+		(instances
+			(project "atlas-flight-controller-board"
+				(path "/99efb2d6-b5f7-438c-9ed2-f359400f01a1/ebeff960-adac-492b-ba2d-f8a8dedd6bc1"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 214.63 114.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a109f6d-dfe7-423b-8c02-ad1b278208ec")
+		(property "Reference" "R5"
+			(at 214.63 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 214.63 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 214.63 116.078 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 214.63 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 214.63 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "114064f4-b20c-4dd2-853c-767b5271354e")
+		)
+		(pin "1"
+			(uuid "8f6ab426-0f44-467e-8ea0-9f769f655f48")
+		)
+		(instances
+			(project "atlas-flight-controller-board"
+				(path "/99efb2d6-b5f7-438c-9ed2-f359400f01a1/ebeff960-adac-492b-ba2d-f8a8dedd6bc1"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "APHBM2012LSURKZGKC:APHBM2012LSURKZGKC")
+		(at 205.74 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5b351275-7459-4ff6-ae3f-6ffc2701ba11")
+		(property "Reference" "D1"
+			(at 204.724 88.138 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "APHBM2012LSURKZGKC"
+			(at 205.9657 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "APHBM2012LSURKZGKC:LED_APHBM2012LSURKZGKC"
+			(at 205.74 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2865,7 +5236,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 88.9 0)
+			(at 205.74 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2874,7 +5245,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 144.78 88.9 0)
+			(at 205.74 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2882,18 +5253,8 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "SparkFun Electronics"
-			(at 144.78 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "4.07mm"
-			(at 144.78 88.9 0)
+		(property "MF" "Kingbright"
+			(at 205.74 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2902,8 +5263,18 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "None"
-			(at 144.78 88.9 0)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.45mm"
+			(at 205.74 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805 Kingbright"
+			(at 205.74 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2913,7 +5284,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 144.78 88.9 0)
+			(at 205.74 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2922,8 +5293,8 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/DEV-16771/SparkFun/view-part/?ref=eda"
-			(at 144.78 88.9 0)
+		(property "Check_prices" "https://www.snapeda.com/parts/APHBM2012LSURKZGKC/Kingbright/view-part/?ref=eda"
+			(at 205.74 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2932,8 +5303,8 @@
 				(hide yes)
 			)
 		)
-		(property "STANDARD" "Manufacturer recommendations"
-			(at 144.78 88.9 0)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 205.74 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2942,8 +5313,8 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" "4.1"
-			(at 144.78 88.9 0)
+		(property "PARTREV" "V.10A"
+			(at 205.74 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2952,8 +5323,8 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/DEV-16771/SparkFun/view-part/?ref=snap"
-			(at 144.78 88.9 0)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/APHBM2012LSURKZGKC/Kingbright/view-part/?ref=snap"
+			(at 205.74 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2962,8 +5333,8 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "DEV-16771"
-			(at 144.78 88.9 0)
+		(property "MP" "APHBM2012LSURKZGKC"
+			(at 205.74 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2972,8 +5343,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" "RT1062 Teensy 4.1 series ARM® Cortex®-M7 MPU Embedded Evaluation Board"
-			(at 144.78 88.9 0)
+		(property "Description_1" "Green, Red 525nm Green, 630nm Red LED Indication - Discrete 2.7V Green, 1.8V Red 0805 (2012 Metric)"
+			(at 205.74 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2983,7 +5354,202 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 144.78 88.9 0)
+			(at 205.74 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Kingbright"
+			(at 205.74 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "6c7fa832-c1f6-441e-ad44-771b44ff0dbb")
+		)
+		(pin "3"
+			(uuid "3336c418-6a8f-4f6a-9476-484594ca8eec")
+		)
+		(pin "1"
+			(uuid "15aa0520-cb37-46a7-a5a5-04e92765b630")
+		)
+		(pin "2"
+			(uuid "fae37424-d3e8-49ea-bce7-4bfcc23884a9")
+		)
+		(instances
+			(project ""
+				(path "/99efb2d6-b5f7-438c-9ed2-f359400f01a1/ebeff960-adac-492b-ba2d-f8a8dedd6bc1"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Teensy4.1:DEV-16771")
+		(at 107.95 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5cee17d0-a034-4aa2-bca2-12ca3c74516d")
+		(property "Reference" "U2"
+			(at 107.95 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DEV-16771"
+			(at 107.95 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Teensy4.1:MODULE_DEV-16771"
+			(at 107.95 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 107.95 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "SparkFun Electronics"
+			(at 107.95 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "4.07mm"
+			(at 107.95 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 107.95 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 107.95 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/DEV-16771/SparkFun/view-part/?ref=eda"
+			(at 107.95 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer recommendations"
+			(at 107.95 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "4.1"
+			(at 107.95 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/DEV-16771/SparkFun/view-part/?ref=snap"
+			(at 107.95 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "DEV-16771"
+			(at 107.95 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "RT1062 Teensy 4.1 series ARM® Cortex®-M7 MPU Embedded Evaluation Board"
+			(at 107.95 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 107.95 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2993,7 +5559,7 @@
 			)
 		)
 		(property "MANUFACTURER" "SparkFun Electronics"
-			(at 144.78 88.9 0)
+			(at 107.95 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3208,7 +5774,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 219.71 127 90)
+		(at 194.31 30.48 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3217,7 +5783,7 @@
 		(fields_autoplaced yes)
 		(uuid "5df34153-803e-4ac9-8828-39d63b30493d")
 		(property "Reference" "R1"
-			(at 219.71 120.65 90)
+			(at 194.31 24.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3225,7 +5791,7 @@
 			)
 		)
 		(property "Value" "10"
-			(at 219.71 123.19 90)
+			(at 194.31 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3233,7 +5799,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 219.71 128.778 90)
+			(at 194.31 32.258 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3242,7 +5808,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 219.71 127 0)
+			(at 194.31 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3251,7 +5817,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 219.71 127 0)
+			(at 194.31 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3276,7 +5842,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 116.84 50.8 0)
+		(at 80.01 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3285,7 +5851,7 @@
 		(fields_autoplaced yes)
 		(uuid "65a17ac0-a29b-436e-9929-b500117de05d")
 		(property "Reference" "#PWR05"
-			(at 116.84 54.61 0)
+			(at 80.01 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3294,7 +5860,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 116.84 45.72 0)
+			(at 80.01 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3302,7 +5868,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 50.8 0)
+			(at 80.01 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3311,7 +5877,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 50.8 0)
+			(at 80.01 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3320,7 +5886,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 116.84 50.8 0)
+			(at 80.01 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3342,23 +5908,24 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 219.71 129.54 270)
+		(at 214.63 152.4 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "896e4b46-a969-4d8a-b5c9-d671ff8a430c")
-		(property "Reference" "R2"
-			(at 219.456 132.588 90)
+		(fields_autoplaced yes)
+		(uuid "68ef30cb-ad71-4f30-a7f3-1c3f04c44480")
+		(property "Reference" "R8"
+			(at 214.63 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "10"
-			(at 219.456 135.128 90)
+		(property "Value" "100"
+			(at 214.63 148.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3366,7 +5933,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 219.71 127.762 90)
+			(at 214.63 154.178 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3375,7 +5942,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 219.71 129.54 0)
+			(at 214.63 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3384,7 +5951,140 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 219.71 129.54 0)
+			(at 214.63 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "852d18fe-1929-48a0-b9ca-f496df7fe3c6")
+		)
+		(pin "1"
+			(uuid "e7ed09b1-8b50-497e-88e2-06e1cd088e7d")
+		)
+		(instances
+			(project "atlas-flight-controller-board"
+				(path "/99efb2d6-b5f7-438c-9ed2-f359400f01a1/ebeff960-adac-492b-ba2d-f8a8dedd6bc1"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 220.98 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69d0e465-fcf4-4da1-b320-6b7ff0ac69a8")
+		(property "Reference" "#PWR012"
+			(at 220.98 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 220.98 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 220.98 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "69b38b8e-0637-4497-8132-8fa7a18092e6")
+		)
+		(instances
+			(project ""
+				(path "/99efb2d6-b5f7-438c-9ed2-f359400f01a1/ebeff960-adac-492b-ba2d-f8a8dedd6bc1"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 194.31 33.02 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "896e4b46-a969-4d8a-b5c9-d671ff8a430c")
+		(property "Reference" "R2"
+			(at 194.056 36.068 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10"
+			(at 194.056 38.608 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 194.31 31.242 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 194.31 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 194.31 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3408,35 +6108,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 228.6 127 0)
+		(lib_id "Device:R")
+		(at 214.63 85.09 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9442fca0-d782-45dc-9664-42ceda035197")
-		(property "Reference" "J1"
-			(at 231.14 126.9999 0)
+		(uuid "8c0c6178-213a-4fa6-9234-65aaad85cdf6")
+		(property "Reference" "R3"
+			(at 214.63 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "LED Indicator Header"
-			(at 231.14 129.5399 0)
+		(property "Value" "100"
+			(at 214.63 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
-			(at 228.6 127 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 214.63 86.868 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3445,7 +6143,77 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 228.6 127 0)
+			(at 214.63 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 214.63 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c96e4520-5ef5-44bf-9142-a89bca64da2c")
+		)
+		(pin "1"
+			(uuid "e10e12cf-2737-4fbe-8ce8-9d26e090e4bc")
+		)
+		(instances
+			(project ""
+				(path "/99efb2d6-b5f7-438c-9ed2-f359400f01a1/ebeff960-adac-492b-ba2d-f8a8dedd6bc1"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 203.2 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9442fca0-d782-45dc-9664-42ceda035197")
+		(property "Reference" "J1"
+			(at 205.74 30.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED Indicator Header"
+			(at 205.74 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
+			(at 203.2 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3454,7 +6222,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 228.6 127 0)
+			(at 203.2 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3478,8 +6246,398 @@
 		)
 	)
 	(symbol
+		(lib_id "APHBM2012LSURKZGKC:APHBM2012LSURKZGKC")
+		(at 205.74 152.4 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "95c300d4-2ec3-46c6-94bf-627e36a199b9")
+		(property "Reference" "D3"
+			(at 204.47 155.702 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "APHBM2012LSURKZGKC"
+			(at 205.3706 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "APHBM2012LSURKZGKC:LED_APHBM2012LSURKZGKC"
+			(at 205.74 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 205.74 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Kingbright"
+			(at 205.74 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.45mm"
+			(at 205.74 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805 Kingbright"
+			(at 205.74 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 205.74 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/APHBM2012LSURKZGKC/Kingbright/view-part/?ref=eda"
+			(at 205.74 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 205.74 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "V.10A"
+			(at 205.74 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/APHBM2012LSURKZGKC/Kingbright/view-part/?ref=snap"
+			(at 205.74 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "APHBM2012LSURKZGKC"
+			(at 205.74 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Green, Red 525nm Green, 630nm Red LED Indication - Discrete 2.7V Green, 1.8V Red 0805 (2012 Metric)"
+			(at 205.74 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 205.74 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Kingbright"
+			(at 205.74 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "6c7fa832-c1f6-441e-ad44-771b44ff0dbc")
+		)
+		(pin "3"
+			(uuid "3336c418-6a8f-4f6a-9476-484594ca8eed")
+		)
+		(pin "1"
+			(uuid "13260040-2325-42ce-a92a-4eb7e261d943")
+		)
+		(pin "2"
+			(uuid "684bf3da-cd78-47dc-811b-0acf0b56b53c")
+		)
+		(instances
+			(project "atlas-flight-controller-board"
+				(path "/99efb2d6-b5f7-438c-9ed2-f359400f01a1/ebeff960-adac-492b-ba2d-f8a8dedd6bc1"
+					(reference "D3")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "APHBM2012LSURKZGKC:APHBM2012LSURKZGKC")
+		(at 256.54 35.56 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "96a54fee-a7eb-4839-a175-c86adb9db0ff")
+		(property "Reference" "D4"
+			(at 255.27 38.862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "APHBM2012LSURKZGKC"
+			(at 256.1706 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "APHBM2012LSURKZGKC:LED_APHBM2012LSURKZGKC"
+			(at 256.54 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 256.54 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Kingbright"
+			(at 256.54 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.45mm"
+			(at 256.54 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805 Kingbright"
+			(at 256.54 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 256.54 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/APHBM2012LSURKZGKC/Kingbright/view-part/?ref=eda"
+			(at 256.54 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 256.54 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "V.10A"
+			(at 256.54 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/APHBM2012LSURKZGKC/Kingbright/view-part/?ref=snap"
+			(at 256.54 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "APHBM2012LSURKZGKC"
+			(at 256.54 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Green, Red 525nm Green, 630nm Red LED Indication - Discrete 2.7V Green, 1.8V Red 0805 (2012 Metric)"
+			(at 256.54 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 256.54 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Kingbright"
+			(at 256.54 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "6c7fa832-c1f6-441e-ad44-771b44ff0dbd")
+		)
+		(pin "3"
+			(uuid "3336c418-6a8f-4f6a-9476-484594ca8eee")
+		)
+		(pin "1"
+			(uuid "1c365f91-f608-4b1d-a716-a9d0da904b93")
+		)
+		(pin "2"
+			(uuid "dfc4df1c-7d55-49ee-8ef0-f6a2bbbb34f3")
+		)
+		(instances
+			(project "atlas-flight-controller-board"
+				(path "/99efb2d6-b5f7-438c-9ed2-f359400f01a1/ebeff960-adac-492b-ba2d-f8a8dedd6bc1"
+					(reference "D4")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 116.84 57.15 0)
+		(at 80.01 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3488,7 +6646,7 @@
 		(fields_autoplaced yes)
 		(uuid "9ab60d20-dbef-4c11-8ff7-144e506c5f5e")
 		(property "Reference" "#PWR07"
-			(at 116.84 63.5 0)
+			(at 80.01 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3497,7 +6655,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 116.84 62.23 0)
+			(at 80.01 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3505,7 +6663,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 57.15 0)
+			(at 80.01 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3514,7 +6672,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 57.15 0)
+			(at 80.01 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3523,7 +6681,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 116.84 57.15 0)
+			(at 80.01 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3545,16 +6703,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 167.64 140.97 0)
+		(at 220.98 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b4699520-3002-49bf-ac68-da7d9093c90e")
-		(property "Reference" "#PWR09"
-			(at 167.64 147.32 0)
+		(uuid "9aec7be9-e0e8-458a-bad6-4ab4cf9d866c")
+		(property "Reference" "#PWR015"
+			(at 220.98 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3563,7 +6721,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 167.64 146.05 0)
+			(at 220.98 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3571,7 +6729,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 140.97 0)
+			(at 220.98 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3580,7 +6738,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 140.97 0)
+			(at 220.98 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3589,7 +6747,334 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 167.64 140.97 0)
+			(at 220.98 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b171c1d-1bfe-42c9-9582-d6fcb54d732d")
+		)
+		(instances
+			(project "atlas-flight-controller-board"
+				(path "/99efb2d6-b5f7-438c-9ed2-f359400f01a1/ebeff960-adac-492b-ba2d-f8a8dedd6bc1"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 271.78 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a73b002b-bae5-4a5f-8d54-62bb3810248e")
+		(property "Reference" "#PWR019"
+			(at 271.78 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 271.78 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 271.78 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 271.78 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 271.78 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "43a8dd10-0a28-4c73-a319-af2283589ea2")
+		)
+		(instances
+			(project "atlas-flight-controller-board"
+				(path "/99efb2d6-b5f7-438c-9ed2-f359400f01a1/ebeff960-adac-492b-ba2d-f8a8dedd6bc1"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "APHBM2012LSURKZGKC:APHBM2012LSURKZGKC")
+		(at 256.54 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b1542ad8-89f6-4ae5-8c83-ead22e1cac76")
+		(property "Reference" "D4"
+			(at 255.524 29.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "APHBM2012LSURKZGKC"
+			(at 256.7657 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "APHBM2012LSURKZGKC:LED_APHBM2012LSURKZGKC"
+			(at 256.54 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 256.54 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Kingbright"
+			(at 256.54 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.45mm"
+			(at 256.54 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805 Kingbright"
+			(at 256.54 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 256.54 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/APHBM2012LSURKZGKC/Kingbright/view-part/?ref=eda"
+			(at 256.54 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 256.54 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "V.10A"
+			(at 256.54 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/APHBM2012LSURKZGKC/Kingbright/view-part/?ref=snap"
+			(at 256.54 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "APHBM2012LSURKZGKC"
+			(at 256.54 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Green, Red 525nm Green, 630nm Red LED Indication - Discrete 2.7V Green, 1.8V Red 0805 (2012 Metric)"
+			(at 256.54 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 256.54 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Kingbright"
+			(at 256.54 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "78ab78fc-ab29-4021-8225-e723a88d1933")
+		)
+		(pin "3"
+			(uuid "d42307f3-7a0f-4746-b7a2-d63043f70b86")
+		)
+		(pin "1"
+			(uuid "15aa0520-cb37-46a7-a5a5-04e92765b631")
+		)
+		(pin "2"
+			(uuid "fae37424-d3e8-49ea-bce7-4bfcc23884aa")
+		)
+		(instances
+			(project "atlas-flight-controller-board"
+				(path "/99efb2d6-b5f7-438c-9ed2-f359400f01a1/ebeff960-adac-492b-ba2d-f8a8dedd6bc1"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 130.81 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b4699520-3002-49bf-ac68-da7d9093c90e")
+		(property "Reference" "#PWR09"
+			(at 130.81 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 130.81 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 130.81 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3605,6 +7090,201 @@
 				(path "/99efb2d6-b5f7-438c-9ed2-f359400f01a1/ebeff960-adac-492b-ba2d-f8a8dedd6bc1"
 					(reference "#PWR09")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "APHBM2012LSURKZGKC:APHBM2012LSURKZGKC")
+		(at 205.74 123.19 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fde9be94-eb13-4f5f-8243-2b027e0364aa")
+		(property "Reference" "D2"
+			(at 204.47 126.492 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "APHBM2012LSURKZGKC"
+			(at 205.3706 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "APHBM2012LSURKZGKC:LED_APHBM2012LSURKZGKC"
+			(at 205.74 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 205.74 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Kingbright"
+			(at 205.74 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.45mm"
+			(at 205.74 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805 Kingbright"
+			(at 205.74 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 205.74 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/APHBM2012LSURKZGKC/Kingbright/view-part/?ref=eda"
+			(at 205.74 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 205.74 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "V.10A"
+			(at 205.74 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/APHBM2012LSURKZGKC/Kingbright/view-part/?ref=snap"
+			(at 205.74 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "APHBM2012LSURKZGKC"
+			(at 205.74 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Green, Red 525nm Green, 630nm Red LED Indication - Discrete 2.7V Green, 1.8V Red 0805 (2012 Metric)"
+			(at 205.74 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 205.74 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Kingbright"
+			(at 205.74 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "6c7fa832-c1f6-441e-ad44-771b44ff0dbe")
+		)
+		(pin "3"
+			(uuid "3336c418-6a8f-4f6a-9476-484594ca8eef")
+		)
+		(pin "1"
+			(uuid "1b2cec24-1eee-4658-9cd8-f9b3f4dcaab4")
+		)
+		(pin "2"
+			(uuid "de0c7f3a-dc56-4846-a684-46cbdf2e061b")
+		)
+		(instances
+			(project "atlas-flight-controller-board"
+				(path "/99efb2d6-b5f7-438c-9ed2-f359400f01a1/ebeff960-adac-492b-ba2d-f8a8dedd6bc1"
+					(reference "D2")
+					(unit 2)
 				)
 			)
 		)

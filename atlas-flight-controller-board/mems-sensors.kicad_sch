@@ -1619,6 +1619,31 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 148.59 129.54)
+		(end 231.14 138.43)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 192 192 192 1)
+		)
+		(uuid 92ee2481-0e31-40c6-99d6-871fb953121d)
+	)
+	(text "ALIGN IMU AND MAG IN SOFTWARE"
+		(exclude_from_sim no)
+		(at 189.738 133.858 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "cd0161f0-2db8-49c4-8887-24f1691778e6")
+	)
 	(text "Alum Poly\n"
 		(exclude_from_sim no)
 		(at 103.378 129.032 0)
