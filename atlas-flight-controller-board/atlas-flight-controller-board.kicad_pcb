@@ -105,7 +105,7 @@
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting front back)
 		(pcbplotparams
-			(layerselection 0x00000000_00000000_55555555_5755f5ff)
+			(layerselection 0x00000000_00000000_5555555f_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions no)
@@ -139,7 +139,7 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
 			(outputdirectory "")
 		)
@@ -233,6 +233,7 @@
 		(property "Reference" "J1"
 			(at 1.27 -2.286 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "ec2bdfd4-1d1a-42ca-810f-ad23db5ebfca")
 			(effects
 				(font
@@ -2030,6 +2031,7 @@
 		(property "Reference" "J4"
 			(at 1.27 -3.22 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "63b59a04-2bfe-475e-9082-c0d19f3c8dc3")
 			(effects
 				(font
@@ -2419,6 +2421,7 @@
 		(property "Reference" "REF**"
 			(at 0 -3.15 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "749f1882-16a8-41ca-8bfc-df922ea5eb5b")
 			(effects
 				(font
@@ -2514,7 +2517,7 @@
 			(remove_unused_layers no)
 			(net 1 "GND")
 			(zone_connect 2)
-			(uuid "7482c775-abfe-43fb-9522-ac5b07fda59a")
+			(uuid "43acf452-46ba-4ad4-ba8f-b118193b6e82")
 		)
 		(pad "1" thru_hole circle
 			(at -1.166726 1.166726)
@@ -2524,7 +2527,7 @@
 			(remove_unused_layers no)
 			(net 1 "GND")
 			(zone_connect 2)
-			(uuid "7482c775-abfe-43fb-9522-ac5b07fda59a")
+			(uuid "423ca678-689b-4406-9ff0-9d561b2f631a")
 		)
 		(pad "1" thru_hole circle
 			(at 0 -1.65)
@@ -2534,7 +2537,7 @@
 			(remove_unused_layers no)
 			(net 1 "GND")
 			(zone_connect 2)
-			(uuid "7482c775-abfe-43fb-9522-ac5b07fda59a")
+			(uuid "405a6a98-be15-4b26-bb62-f64cd7ffeb49")
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
@@ -2544,7 +2547,7 @@
 			(remove_unused_layers no)
 			(net 1 "GND")
 			(zone_connect 2)
-			(uuid "7482c775-abfe-43fb-9522-ac5b07fda59a")
+			(uuid "dc4abbde-1b2f-465e-9d5c-b4ed58c1bbba")
 		)
 		(pad "1" thru_hole circle
 			(at 0 1.65)
@@ -2554,7 +2557,7 @@
 			(remove_unused_layers no)
 			(net 1 "GND")
 			(zone_connect 2)
-			(uuid "7482c775-abfe-43fb-9522-ac5b07fda59a")
+			(uuid "ebbd9b96-7be0-4361-b4cc-c13a61a2d326")
 		)
 		(pad "1" thru_hole circle
 			(at 1.166726 -1.166726)
@@ -2564,7 +2567,7 @@
 			(remove_unused_layers no)
 			(net 1 "GND")
 			(zone_connect 2)
-			(uuid "7482c775-abfe-43fb-9522-ac5b07fda59a")
+			(uuid "16c6fd36-e2ef-4941-b02e-8c1d6b79e1bb")
 		)
 		(pad "1" thru_hole circle
 			(at 1.166726 1.166726)
@@ -2574,7 +2577,7 @@
 			(remove_unused_layers no)
 			(net 1 "GND")
 			(zone_connect 2)
-			(uuid "7482c775-abfe-43fb-9522-ac5b07fda59a")
+			(uuid "60185171-425e-406e-9fa4-494a9b708295")
 		)
 		(pad "1" thru_hole circle
 			(at 1.65 0)
@@ -2584,7 +2587,7 @@
 			(remove_unused_layers no)
 			(net 1 "GND")
 			(zone_connect 2)
-			(uuid "7482c775-abfe-43fb-9522-ac5b07fda59a")
+			(uuid "bb13c2f6-aab1-4853-a759-9d14c8119e5f")
 		)
 		(embedded_fonts no)
 	)
@@ -2597,6 +2600,7 @@
 		(property "Reference" "REF**"
 			(at 0 -3.15 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "9c76b7eb-fa74-40f2-8baa-1c362fbcb5de")
 			(effects
 				(font
@@ -2692,7 +2696,7 @@
 			(remove_unused_layers no)
 			(net 1 "GND")
 			(zone_connect 2)
-			(uuid "dd62fd60-00ac-49a2-9f1e-2d4e7893afbe")
+			(uuid "1bed3156-ba90-4315-b720-43fea9dc6b90")
 		)
 		(pad "1" thru_hole circle
 			(at -1.166726 1.166726)
@@ -2702,7 +2706,7 @@
 			(remove_unused_layers no)
 			(net 1 "GND")
 			(zone_connect 2)
-			(uuid "dd62fd60-00ac-49a2-9f1e-2d4e7893afbe")
+			(uuid "271120c8-76dd-460d-bd5a-33dfabede697")
 		)
 		(pad "1" thru_hole circle
 			(at 0 -1.65)
@@ -2712,7 +2716,7 @@
 			(remove_unused_layers no)
 			(net 1 "GND")
 			(zone_connect 2)
-			(uuid "dd62fd60-00ac-49a2-9f1e-2d4e7893afbe")
+			(uuid "38b58b5c-bcbb-43d2-b38f-f524153a88af")
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
@@ -2722,7 +2726,7 @@
 			(remove_unused_layers no)
 			(net 1 "GND")
 			(zone_connect 2)
-			(uuid "dd62fd60-00ac-49a2-9f1e-2d4e7893afbe")
+			(uuid "c1ef531d-c8e5-41e9-b0ab-ee11e6c38e86")
 		)
 		(pad "1" thru_hole circle
 			(at 0 1.65)
@@ -2732,7 +2736,7 @@
 			(remove_unused_layers no)
 			(net 1 "GND")
 			(zone_connect 2)
-			(uuid "dd62fd60-00ac-49a2-9f1e-2d4e7893afbe")
+			(uuid "fe47931c-a7cd-4721-9421-21d782a29dd3")
 		)
 		(pad "1" thru_hole circle
 			(at 1.166726 -1.166726)
@@ -2742,7 +2746,7 @@
 			(remove_unused_layers no)
 			(net 1 "GND")
 			(zone_connect 2)
-			(uuid "dd62fd60-00ac-49a2-9f1e-2d4e7893afbe")
+			(uuid "d249fc47-cd59-485a-8bb3-1c90eb7f81c4")
 		)
 		(pad "1" thru_hole circle
 			(at 1.166726 1.166726)
@@ -2752,7 +2756,7 @@
 			(remove_unused_layers no)
 			(net 1 "GND")
 			(zone_connect 2)
-			(uuid "dd62fd60-00ac-49a2-9f1e-2d4e7893afbe")
+			(uuid "b0d25218-317e-46f1-b257-ddff02c8af8f")
 		)
 		(pad "1" thru_hole circle
 			(at 1.65 0)
@@ -2762,7 +2766,7 @@
 			(remove_unused_layers no)
 			(net 1 "GND")
 			(zone_connect 2)
-			(uuid "dd62fd60-00ac-49a2-9f1e-2d4e7893afbe")
+			(uuid "bf0509fb-1324-439d-a212-bd0c6fcace5d")
 		)
 		(embedded_fonts no)
 	)
@@ -2975,6 +2979,7 @@
 		(property "Reference" "REF**"
 			(at 0 -3.15 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "be3b7f97-e706-4ba0-9afa-8cc84d6ff4d4")
 			(effects
 				(font
@@ -3070,7 +3075,7 @@
 			(remove_unused_layers no)
 			(net 1 "GND")
 			(zone_connect 2)
-			(uuid "20ffd9a9-5883-4a0c-a4d6-0ef87f0f5bef")
+			(uuid "7a5c065b-8772-46ca-9c9c-312e7f2261eb")
 		)
 		(pad "1" thru_hole circle
 			(at -1.166726 1.166726)
@@ -3080,7 +3085,7 @@
 			(remove_unused_layers no)
 			(net 1 "GND")
 			(zone_connect 2)
-			(uuid "20ffd9a9-5883-4a0c-a4d6-0ef87f0f5bef")
+			(uuid "1d062878-d516-4183-a8e5-58c6bbdae564")
 		)
 		(pad "1" thru_hole circle
 			(at 0 -1.65)
@@ -3090,7 +3095,7 @@
 			(remove_unused_layers no)
 			(net 1 "GND")
 			(zone_connect 2)
-			(uuid "20ffd9a9-5883-4a0c-a4d6-0ef87f0f5bef")
+			(uuid "eb00cfc5-2336-4220-a70f-34350167bfc2")
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
@@ -3100,7 +3105,7 @@
 			(remove_unused_layers no)
 			(net 1 "GND")
 			(zone_connect 2)
-			(uuid "20ffd9a9-5883-4a0c-a4d6-0ef87f0f5bef")
+			(uuid "f88a98db-c71d-43f0-8c6c-8c2b46ea47ea")
 		)
 		(pad "1" thru_hole circle
 			(at 0 1.65)
@@ -3110,7 +3115,7 @@
 			(remove_unused_layers no)
 			(net 1 "GND")
 			(zone_connect 2)
-			(uuid "20ffd9a9-5883-4a0c-a4d6-0ef87f0f5bef")
+			(uuid "884e2e9b-df52-4ebe-8f28-fa0bc427b848")
 		)
 		(pad "1" thru_hole circle
 			(at 1.166726 -1.166726)
@@ -3120,7 +3125,7 @@
 			(remove_unused_layers no)
 			(net 1 "GND")
 			(zone_connect 2)
-			(uuid "20ffd9a9-5883-4a0c-a4d6-0ef87f0f5bef")
+			(uuid "a40e1227-2c89-4f9f-9d68-f77f49d2854b")
 		)
 		(pad "1" thru_hole circle
 			(at 1.166726 1.166726)
@@ -3130,7 +3135,7 @@
 			(remove_unused_layers no)
 			(net 1 "GND")
 			(zone_connect 2)
-			(uuid "20ffd9a9-5883-4a0c-a4d6-0ef87f0f5bef")
+			(uuid "2f2e263a-4c97-4d19-b134-ab8881c10acd")
 		)
 		(pad "1" thru_hole circle
 			(at 1.65 0)
@@ -3140,7 +3145,7 @@
 			(remove_unused_layers no)
 			(net 1 "GND")
 			(zone_connect 2)
-			(uuid "20ffd9a9-5883-4a0c-a4d6-0ef87f0f5bef")
+			(uuid "c42128dc-4495-4157-abdb-df208740fc4b")
 		)
 		(embedded_fonts no)
 	)
@@ -4578,6 +4583,7 @@
 		(property "Reference" "REF**"
 			(at 0 -3.15 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "bb4b594f-93e4-4c0c-ba7e-94f8da1ef534")
 			(effects
 				(font
@@ -4673,7 +4679,7 @@
 			(remove_unused_layers no)
 			(net 1 "GND")
 			(zone_connect 2)
-			(uuid "b9fde34e-09c5-4d3a-9ecc-b4f4a10f94d3")
+			(uuid "df336fe5-01c6-4c78-9203-fca651a1ca9d")
 		)
 		(pad "1" thru_hole circle
 			(at -1.166726 1.166726)
@@ -4683,7 +4689,7 @@
 			(remove_unused_layers no)
 			(net 1 "GND")
 			(zone_connect 2)
-			(uuid "b9fde34e-09c5-4d3a-9ecc-b4f4a10f94d3")
+			(uuid "8dea87af-160c-4dfe-9ae4-b1310509617f")
 		)
 		(pad "1" thru_hole circle
 			(at 0 -1.65)
@@ -4693,7 +4699,7 @@
 			(remove_unused_layers no)
 			(net 1 "GND")
 			(zone_connect 2)
-			(uuid "b9fde34e-09c5-4d3a-9ecc-b4f4a10f94d3")
+			(uuid "4f607b95-8eb2-428e-889f-c3c6a0c38ccf")
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
@@ -4703,7 +4709,7 @@
 			(remove_unused_layers no)
 			(net 1 "GND")
 			(zone_connect 2)
-			(uuid "b9fde34e-09c5-4d3a-9ecc-b4f4a10f94d3")
+			(uuid "5b9c6d07-2f54-4685-97ef-b889aac931fa")
 		)
 		(pad "1" thru_hole circle
 			(at 0 1.65)
@@ -4713,7 +4719,7 @@
 			(remove_unused_layers no)
 			(net 1 "GND")
 			(zone_connect 2)
-			(uuid "b9fde34e-09c5-4d3a-9ecc-b4f4a10f94d3")
+			(uuid "a6e2038e-ccdf-4777-9139-bcc85866056d")
 		)
 		(pad "1" thru_hole circle
 			(at 1.166726 -1.166726)
@@ -4723,7 +4729,7 @@
 			(remove_unused_layers no)
 			(net 1 "GND")
 			(zone_connect 2)
-			(uuid "b9fde34e-09c5-4d3a-9ecc-b4f4a10f94d3")
+			(uuid "115e402d-7efa-4826-ba45-82deabc6e5c2")
 		)
 		(pad "1" thru_hole circle
 			(at 1.166726 1.166726)
@@ -4733,7 +4739,7 @@
 			(remove_unused_layers no)
 			(net 1 "GND")
 			(zone_connect 2)
-			(uuid "b9fde34e-09c5-4d3a-9ecc-b4f4a10f94d3")
+			(uuid "94c6c304-636f-48cb-8092-9ce50dd290e7")
 		)
 		(pad "1" thru_hole circle
 			(at 1.65 0)
@@ -4743,7 +4749,7 @@
 			(remove_unused_layers no)
 			(net 1 "GND")
 			(zone_connect 2)
-			(uuid "b9fde34e-09c5-4d3a-9ecc-b4f4a10f94d3")
+			(uuid "9d915d32-30a9-4818-80d9-1adb9e8359ba")
 		)
 		(embedded_fonts no)
 	)
@@ -5514,8 +5520,9 @@
 		(uuid "9ed281f4-97f6-44f5-8417-cd399b4170d4")
 		(at 106 73.66)
 		(property "Reference" "U3"
-			(at -9.775 -19.03 0)
+			(at -10.16 -1.27 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "3f4bdfc5-4575-45d2-8fcc-6745e057e47b")
 			(effects
 				(font
@@ -6126,8 +6133,8 @@
 		(at 145.034 73.152 90)
 		(descr "Terminal Block Xinya XY308-2.54-2P, 2 pins, pitch 2.54mm, size 5.58x6.5mm, drill diameter 1.2mm, pad diameter 2mm, http://www.xinyaelectronic.com/product/xy308-254, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Xinya")
 		(tags "THT Terminal Block Xinya XY308-2.54-2P pitch 2.54mm size 5.58x6.5mm drill 1.2mm pad 2mm")
-		(property "Reference" "RFD900x1"
-			(at 1.27 -4.318 90)
+		(property "Reference" "Radio's"
+			(at 0.762 -5.334 90)
 			(layer "F.SilkS")
 			(uuid "c1c76acc-7b40-4ad1-8296-73169a7ae1d0")
 			(effects
@@ -11486,6 +11493,30 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "f6914512-ac27-4a99-b185-cd1b7c98580f")
+	)
+	(gr_text "Put me back!"
+		(at 128.905 91.694 90)
+		(layer "F.SilkS")
+		(uuid "416fab13-94e0-49db-ba6a-325a06aa4b77")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Rx Tx"
+		(at 141.605 74.295 90)
+		(layer "F.SilkS")
+		(uuid "4ac0afb3-ad16-4d61-8ee3-4925f84ee2ff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
 	)
 	(gr_text "Usr1"
 		(at 138.938 92.202 90)
