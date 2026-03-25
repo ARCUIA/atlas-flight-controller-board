@@ -5751,7 +5751,7 @@
 		(path "/b614d0fa-38cc-4f5c-8335-684f0616169f/48d625fc-b912-44c7-bb19-b10aa712d010")
 		(sheetname "/gps/")
 		(sheetfile "gps.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start -12.7 14.605)
 			(end -12.7 -14.605)
@@ -7200,7 +7200,7 @@
 		(path "/ebeff960-adac-492b-ba2d-f8a8dedd6bc1/5cee17d0-a034-4aa2-bca2-12ca3c74516d")
 		(sheetname "/mcu-page/")
 		(sheetfile "mcu-page.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start -30.48 8.89)
 			(end -30.48 4.03)
